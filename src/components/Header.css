@@ -3,24 +3,28 @@
 body {
     margin:0;
     padding:0;
-    background-image:url("https://a0.muscache.com/im/pictures/5998210c-3dd8-456a-8805-2a044ede1d5e.jpg?im_w=1200");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; /* Resize the background image to cover the entire container */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-size: 14px;
-    
+    background-image:url("https://a0.muscache.com/im/pictures/5998210c-3dd8-456a-8805-2a044ede1d5e.jpg?im_w=1200");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 560px;
+    color:#fff;
+    opacity: 0.9;
 }
 
 .header__icon {
     object-fit: contain;
-    height:100px;
-    margin-left: 20px;
+    height:40px;
+    margin-left: 29px;
+    margin-top: 24px;
 }
 
 .header__center {
@@ -28,20 +32,65 @@ body {
     flex: 1;
 }
 
+.header__navbar {
+    width: 100%;
+}
+
 .header__menu {
     display: flex;
-    margin: 0 20px;
-    justify-content: space-around;
+    margin: 35px 32px;
+    font-size: 15px;
+    justify-content: flex-end;
+    font-size: 15px;
+    width: 95%;
 }
 
 ul.header__menu li {
-    
+    list-style:none;
     font-family: 'Montserrat', sans-serif;
+    margin: 0 27px;
    
 }
 
-li.menu__title {
+/* li.menu__title {
     list-style: none;
     font-family: 'Montserrat', sans-serif;
+} */
+
+svg.logo__text {
+    position: absolute;
+    top: 35px;
+    left: 68px;
 }
 
+.recherche {
+    display: flex;
+    flex-direction: column;
+    background:#fff;
+    color:#000;
+    position: absolute;
+    top: 80px;
+    padding:40px 33px;
+    margin-left: 80px;
+    width: 513px;
+    border-radius:8px;
+}
+
+.recherche h1 {
+    font-size:37px;
+    margin:0;
+    font-weight: bold;
+    color:#222222;
+}
+
+.recherche p {
+    color:#767676;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.MuiFormControl-marginNormal {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
