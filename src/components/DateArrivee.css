@@ -3,3 +3,7 @@ div.MuiFormControl-marginNormal {
     margin-bottom: 8px;
     margin-left: 10px;
 }
+
+label.MuiFormLabel-root.Mui-focused {
+    color:#000;
+}

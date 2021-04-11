@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css';
 import Adresse from "./Adresse"
 import DateArrivee from './DateArrivee'
-
+import DateDepart from './DateDepart'
 
 function Header() {
 
@@ -23,6 +23,7 @@ function Header() {
                 <p>Découvrez des chambres privées ou des logements entiers, parfaitement adaptés à tout type de voyage.</p>
                 <Adresse />
                 <DateArrivee />
+                <DateDepart />
 
             </div>
 

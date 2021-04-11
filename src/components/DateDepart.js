@@ -45,7 +45,6 @@ function RedditTextField(props) {
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
-    flexDirection: 'row',
     flexWrap: 'wrap',
   },
   margin: {
@@ -74,7 +73,7 @@ export default function DateArrivee() {
               format="MM/dd/yyyy"
               margin="normal"
               id="date-picker-inline"
-              label="ARRIVÉE"
+              label="DÉPART"
               value={selectedDate}
               onChange={handleDateChange}
               KeyboardButtonProps={{
