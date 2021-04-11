@@ -3,6 +3,7 @@ import './Header.css';
 import Adresse from "./Adresse"
 import DateArrivee from './DateArrivee'
 import DateDepart from './DateDepart'
+import Adulte from './Adulte';
 
 function Header() {
 
@@ -24,6 +25,7 @@ function Header() {
                 <Adresse />
                 <DateArrivee />
                 <DateDepart />
+                <Adulte />
 
             </div>
 

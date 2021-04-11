@@ -7,3 +7,8 @@ div.MuiFormControl-marginNormal {
 label.MuiFormLabel-root.Mui-focused {
     color:#000;
 }
+
+.hebergement {
+    display: flex;
+    flex-direction: row;
+}
