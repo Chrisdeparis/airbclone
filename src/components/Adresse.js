@@ -5,7 +5,7 @@ import {
 
 } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
-import './Adresse.css';
+
 
 
 
@@ -14,6 +14,7 @@ import './Adresse.css';
 
 const useStylesReddit = makeStyles((theme) => ({
   root: {
+    width:'100%',
     border: '1px solid #e2e2e1',
     overflow: 'hidden',
     borderRadius: 4,
@@ -58,6 +59,7 @@ export default function CustomizedInputs() {
         className={classes.margin}
         defaultValue="France"
         variant="filled"
+        fullWidth
       />
     </form>
   );

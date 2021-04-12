@@ -100,3 +100,17 @@ svg.logo__text {
     margin-right:10px;
 }
 
+label.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-filled.MuiFormLabel-filled {
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+label.Mui-focused .MuiInputLabel-animated {
+    color:#000;
+}
+
+
+.MuiButtonBase-root .MuiIconButton-root .MuiPickersDay-day .MuiPickersDay-daySelected {
+    background-color:#000!important;
+}
