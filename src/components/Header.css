@@ -155,6 +155,13 @@ button.logement__btn {
     line-height:24px;
     height:42px;
     border-bottom-color:#fff;
+    border:none;
+    outline:none;
+}
+
+a.logement__lien {
+    color:#000;
+    text-decoration:none;
 }
 
 .localisation {
@@ -166,4 +173,32 @@ a.localisation__link {
  font-size:16px;
  font-weight:bold;
  color:#000;
+ 
+}
+a.logement__lien:hover {
+   text-decoration:underline;
+}
+
+h2.localisation__title {
+    margin-top:60px;
+    font-size:26px;
+    line-height:30px;
+    font-weight:medium;
+    color:#222222;
+    margin-bottom:9px;
+}
+
+p.localisation__p {
+    margin-top: 5px;
+    font-size:16px;
+    color:#717171;
+}
+
+div.appart__pic {
+    background-image:url('https://a0.muscache.com/im/pictures/69556101/41a4a2be_original.jpg?im_w=480');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: fixed;
+    background-color:orange;
+    
 }
