@@ -8,23 +8,18 @@ import NativeSelect from '@material-ui/core/NativeSelect';
 import InputBase from '@material-ui/core/InputBase';
 
 const BootstrapInput = withStyles((theme) => ({
-  root: {
-    'label + &': {
-      
-      
-    },
-  },
+  
   input: {
     borderRadius: 4,
     position: 'relative',
     backgroundColor: theme.palette.background.paper,
     border: '1px solid #e2e2e1',
     fontSize: 16,
-    padding: '10px 26px 10px 12px',
-    transition: theme.transitions.create(['border-color', 'box-shadow']),
-    width: 218,
-    height:40,
     
+    transition: theme.transitions.create(['border-color', 'box-shadow']),
+    
+    width: 210,
+    height:35,
     // Use the system font instead of the default Roboto font.
     fontFamily: [
       '-apple-system',
@@ -41,8 +36,8 @@ const BootstrapInput = withStyles((theme) => ({
     '&:focus': {
       borderRadius: 4,
       borderColor: '#000',
-      border: "2px solid #000",
-      boxShadow: '0 0 0 0.2rem rgba(0,123,255,.25)',
+      border:'3px solid #000'
+      // boxShadow: '0 0 0 0.2rem rgba(0,123,255,.25)',
     },
   },
 }))(InputBase);
@@ -66,7 +61,7 @@ export default function CustomizedSelects() {
         <NativeSelect
           id="demo-customized-select-native"
           value={age}
-          label="Filled"
+          label="ADULTES"
           onChange={handleChange}
           variant="filled"
           input={<BootstrapInput />}

@@ -97,14 +97,6 @@ svg.logo__text {
     margin-top: 16px;
     margin-bottom: 8px;
     margin-left: 10px;
+    margin-right:10px;
 }
 
-.hebergement div.participant {
-    width:217px;
-    height: 57px;
-}
-
-.col-2{
-    display: flex;
-    flex-direction: row;
-}

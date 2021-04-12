@@ -18,8 +18,8 @@ const BootstrapInput = withStyles((theme) => ({
     
     transition: theme.transitions.create(['border-color', 'box-shadow']),
     
-    width: 218,
-    height:40,
+    width: 210,
+    height:35,
     // Use the system font instead of the default Roboto font.
     fontFamily: [
       '-apple-system',
