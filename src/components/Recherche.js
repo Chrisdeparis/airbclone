@@ -7,6 +7,8 @@ const useStyles = makeStyles((theme) => ({
     '& > *': {
       margin: theme.spacing(1),
       textTransform: 'none',
+      height:47,
+      fontSize:'16px',
     },
   },
 }));

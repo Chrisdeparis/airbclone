@@ -5,10 +5,10 @@ import Enfant from './Enfant'
 function Participant() {
     return (
         <div className="col-2">
-            <div className="hebergement">
+            {/*<div className="hebergement">
                 <Adulte />  
                 <Enfant />
-            </div> 
+            </div> */}
         </div>
     )
 }

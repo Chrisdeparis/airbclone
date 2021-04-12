@@ -24,7 +24,7 @@ const useStylesReddit = makeStyles((theme) => ({
     },
     '&$focused': {
       backgroundColor: '#fff',
-      border: '2px solid #000',
+      border: '3px solid #000',
     },
   },
   focused: {},

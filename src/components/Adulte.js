@@ -36,7 +36,7 @@ const BootstrapInput = withStyles((theme) => ({
     '&:focus': {
       borderRadius: 4,
       borderColor: '#000',
-      border:'2px solid #000'
+      border:'3px solid #000'
       // boxShadow: '0 0 0 0.2rem rgba(0,123,255,.25)',
     },
   },
