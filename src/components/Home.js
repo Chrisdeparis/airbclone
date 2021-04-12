@@ -2,6 +2,7 @@ import React from 'react'
 import Header  from "./Header";
 import Logement from "./Logement";
 import Localisation from "./Localisation";
+import ChezVous from './ChezVous'
 
 function Home() {
     return (
@@ -9,6 +10,7 @@ function Home() {
             <Header />
             <Logement />
             <Localisation />
+            <ChezVous />
         </div>
     )
 }

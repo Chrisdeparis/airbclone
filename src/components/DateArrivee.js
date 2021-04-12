@@ -9,13 +9,8 @@ import {
   KeyboardDatePicker,
 } from '@material-ui/pickers';
 import {
-
   makeStyles,
-
 } from '@material-ui/core/styles';
-
-
-
 
 const useStylesReddit = makeStyles((theme) => ({
   root: {
@@ -34,7 +29,6 @@ const useStylesReddit = makeStyles((theme) => ({
   },
   focused: {},
 }));
-
 
 function RedditTextField(props) {
   const classes = useStylesReddit();
