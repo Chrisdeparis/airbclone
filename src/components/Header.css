@@ -71,7 +71,7 @@ svg.logo__text {
     color:#000;
     position: absolute;
     top: 80px;
-    padding:40px 33px;
+    padding:25px 33px;
     margin-left: 80px;
     width: 513px;
     border-radius:8px;
@@ -82,16 +82,29 @@ svg.logo__text {
     margin:0;
     font-weight: bold;
     color:#222222;
+    line-height: 30px;
 }
 
 .recherche p {
     color:#767676;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 13px;
+    margin-bottom: 7px;
+    line-height: 20px;
 }
 
 .MuiFormControl-marginNormal {
     margin-top: 16px;
     margin-bottom: 8px;
     margin-left: 10px;
+}
+
+.hebergement div.participant {
+    width:217px;
+    height: 57px;
+}
+
+.col-2{
+    display: flex;
+    flex-direction: row;
 }

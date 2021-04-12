@@ -1,10 +1,12 @@
 import React from 'react'
 import './Header.css';
 import Adresse from "./Adresse"
-import DateArrivee from './DateArrivee'
-import DateDepart from './DateDepart'
+
 import Adulte from './Adulte';
 import Enfant from './Enfant';
+import Periode from './Periode';
+import Participant from './Participant';
+import Recherche from './Recherche'
 
 function Header() {
 
@@ -24,10 +26,9 @@ function Header() {
                 <h1>Find hébergements in France on Airbnb</h1>
                 <p>Découvrez des chambres privées ou des logements entiers, parfaitement adaptés à tout type de voyage.</p>
                 <Adresse />
-                <DateArrivee />
-                <DateDepart />
-                <Adulte />
-                <Enfant />
+                <Periode />
+                <Participant />
+                <Recherche />
 
             </div>
 

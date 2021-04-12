@@ -13,7 +13,7 @@ const BootstrapInput = withStyles((theme) => ({
     borderRadius: 4,
     position: 'relative',
     backgroundColor: theme.palette.background.paper,
-    border: '2px solid #000',
+    border: '1px solid #e2e2e1',
     fontSize: 16,
     
     transition: theme.transitions.create(['border-color', 'box-shadow']),
@@ -36,6 +36,7 @@ const BootstrapInput = withStyles((theme) => ({
     '&:focus': {
       borderRadius: 4,
       borderColor: '#000',
+      border:'2px solid #000'
       // boxShadow: '0 0 0 0.2rem rgba(0,123,255,.25)',
     },
   },
@@ -54,7 +55,7 @@ export default function CustomizedSelects() {
     setAge(event.target.value);
   };
   return (
-    <div>
+    <div className="participant">
       <FormControl className={classes.margin}>
         <InputLabel htmlFor="demo-customized-select-native">ADULTES</InputLabel>
         <NativeSelect

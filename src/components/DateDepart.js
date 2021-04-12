@@ -62,7 +62,7 @@ export default function DateArrivee() {
   };
 
   return (
-    <>
+    <div className="hebergement">
     
     <MuiPickersUtilsProvider utils={DateFnsUtils}>
           <Grid>
@@ -83,6 +83,6 @@ export default function DateArrivee() {
           </Grid>
         </MuiPickersUtilsProvider>
     
-    </>
+    </div>
   );
 }
