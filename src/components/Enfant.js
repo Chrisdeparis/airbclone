@@ -8,18 +8,23 @@ import NativeSelect from '@material-ui/core/NativeSelect';
 import InputBase from '@material-ui/core/InputBase';
 
 const BootstrapInput = withStyles((theme) => ({
-  
+  root: {
+    'label + &': {
+      
+      
+    },
+  },
   input: {
     borderRadius: 4,
     position: 'relative',
     backgroundColor: theme.palette.background.paper,
     border: '2px solid #000',
     fontSize: 16,
-    
+    padding: '10px 26px 10px 12px',
     transition: theme.transitions.create(['border-color', 'box-shadow']),
-    
     width: 218,
     height:40,
+    
     // Use the system font instead of the default Roboto font.
     fontFamily: [
       '-apple-system',
@@ -36,7 +41,7 @@ const BootstrapInput = withStyles((theme) => ({
     '&:focus': {
       borderRadius: 4,
       borderColor: '#000',
-      // boxShadow: '0 0 0 0.2rem rgba(0,123,255,.25)',
+      boxShadow: '0 0 0 0.2rem rgba(0,123,255,.25)',
     },
   },
 }))(InputBase);
@@ -56,11 +61,11 @@ export default function CustomizedSelects() {
   return (
     <div>
       <FormControl className={classes.margin}>
-        <InputLabel htmlFor="demo-customized-select-native">ADULTES</InputLabel>
+        <InputLabel htmlFor="demo-customized-select-native">ENFANTS</InputLabel>
         <NativeSelect
           id="demo-customized-select-native"
           value={age}
-          label="ADULTES"
+          label="Filled"
           onChange={handleChange}
           variant="filled"
           input={<BootstrapInput />}
@@ -72,16 +77,7 @@ export default function CustomizedSelects() {
           <option value={4}>4</option>
           <option value={5}>5</option>
           <option value={6}>6</option>
-          <option value={7}>7</option>
-          <option value={8}>8</option>
-          <option value={9}>9</option>
-          <option value={10}>10</option>
-          <option value={11}>11</option>
-          <option value={12}>12</option>
-          <option value={13}>13</option>
-          <option value={14}>14</option>
-          <option value={15}>15</option>
-          <option value={16}>16</option>
+          
         </NativeSelect>
       </FormControl>
     </div>

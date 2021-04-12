@@ -4,6 +4,7 @@ import Adresse from "./Adresse"
 import DateArrivee from './DateArrivee'
 import DateDepart from './DateDepart'
 import Adulte from './Adulte';
+import Enfant from './Enfant';
 
 function Header() {
 
@@ -26,6 +27,7 @@ function Header() {
                 <DateArrivee />
                 <DateDepart />
                 <Adulte />
+                <Enfant />
 
             </div>
 

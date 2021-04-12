@@ -55,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
 export default function DateArrivee() {
   const classes = useStyles();
   // The first commit of Material-UI
-  const [selectedDate, setSelectedDate] = React.useState(new Date('2014-08-18T21:11:54'));
+  const [selectedDate, setSelectedDate] = React.useState(new Date('2021-09-18T21:11:54'));
 
   const handleDateChange = (date) => {
     setSelectedDate(date);
@@ -70,7 +70,7 @@ export default function DateArrivee() {
               className={classes.margin}
               disableToolbar
               variant="inline"
-              format="MM/dd/yyyy"
+              format="dd/MM/yyyy"
               margin="normal"
               id="date-picker-inline"
               label="DÉPART"

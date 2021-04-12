@@ -14,6 +14,7 @@ body {
     background-image:url("https://a0.muscache.com/im/pictures/5998210c-3dd8-456a-8805-2a044ede1d5e.jpg?im_w=1200");
     background-repeat: no-repeat;
     background-position: center;
+    background-position: fixed;
     background-size: cover; /* Resize the background image to cover the entire container */
     height: 560px;
     color:#fff;
