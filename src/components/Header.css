@@ -14,11 +14,11 @@ body {
     background-image:url("https://a0.muscache.com/im/pictures/5998210c-3dd8-456a-8805-2a044ede1d5e.jpg?im_w=1200");
     background-repeat: no-repeat;
     background-position: center;
-    background-position: fixed;
     background-size: cover; /* Resize the background image to cover the entire container */
     height: 560px;
     color:#fff;
     opacity: 0.9;
+    
 }
 
 .header__icon {
@@ -34,7 +34,7 @@ body {
 }
 
 .header__navbar {
-    width: 100%;
+    width: 95%;
 }
 
 .header__menu {
@@ -206,6 +206,16 @@ div.appart__pic {
 .starIcon {
     margin-top:15px;
     color:#FF385C;
+    display: flex;
+    list-style: none;
+}
+ul.starIcon {
+    
+    list-style: none;
+}
+li.starIcon:first-child {
+    margin-left:10px;
+    list-style: none;
 }
 
 p.appart__desc {
