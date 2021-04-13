@@ -7,7 +7,6 @@ import ChezVous from './ChezVous'
 function Home() {
     return (
         <div className="Home">
-            <Header />
             <Logement />
             <Localisation />
             <ChezVous />

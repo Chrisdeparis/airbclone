@@ -8,6 +8,7 @@ import Appart from './Appart'
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    maxWidth: 1180,
   },
   paper: {
     padding: theme.spacing(2),
