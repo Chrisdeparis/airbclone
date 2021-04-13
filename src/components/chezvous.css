@@ -1,0 +1,14 @@
+.chez__vous {
+    max-width:1260px;
+   
+    
+
+}
+
+h2.chezvous__title {
+    font-size:32px;
+}
+
+div.chezvous__grid {
+    display: flex;
+}

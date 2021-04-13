@@ -1,0 +1,10 @@
+div.chezvousimage {
+    background:url('https://a0.muscache.com/im/pictures/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg?im_w=720');
+    width: 283px;
+    height:283px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    border-radius: 8px;
+}

@@ -2,13 +2,18 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
+import './chezvous.css';
+import Appart from './Appart';
+import ChezVousImage from './ChezVousImage';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    maxWidth: 1180,
+    
   },
   paper: {
-    padding: theme.spacing(1),
+    padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
@@ -19,21 +24,32 @@ export default function NestedGrid() {
 
   function FormRow() {
     return (
-      <React.Fragment>
+      <React.Fragment >
       
-
-        <Grid item xs={3}>
-          photo1
-        </Grid>
-        <Grid item xs={3}>
-         photo2
-        </Grid>
-        <Grid item xs={3}>
-            photo3          
-        </Grid>
-        <Grid item xs={3}>
-            photo 4
-        </Grid>
+        <div  className="chez__vous">
+          <h2 className="chezvous__title">Chez vous, partout</h2>
+          <div className="chezvous__grid">
+            <Grid container spacing={2}>
+              <Grid item xs={12} md={3}>
+                <ChezVousImage />
+                <p>Des Logemnts entiers</p>
+              </Grid>
+              <Grid item xs={12} md={3}>
+                <ChezVousImage />
+                <p>Des logements uniques</p>
+              </Grid>
+              <Grid item xs={12} md={3}>
+                <ChezVousImage />
+                <p>Ferme et nature</p>
+              </Grid>
+              <Grid item xs={12} md={3}>
+                <ChezVousImage />
+                <p>Animaux de compagnie acceptés</p>
+              </Grid> 
+            </Grid>
+          </div>
+        </div>
+        
         
       </React.Fragment>
     );
