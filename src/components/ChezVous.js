@@ -10,7 +10,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     maxWidth: 1180,
-    
+    marginLeft: 80,
+    fontWeight: 'bold',
+    color:'#222222',
+    fontSize:17,
   },
   paper: {
     padding: theme.spacing(2),

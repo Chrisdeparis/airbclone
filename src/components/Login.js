@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
-import Fire from "../Fire";
-import LoginSection from 'LoginSection'
+import fire from "../Fire";
+import LoginSection from './LoginSection'
+import Hero from './Hero'
 
 function Login() {
     const [user, setUser] = useState('');
@@ -72,16 +73,25 @@ function Login() {
         });
     };
 
-    useEffect(() => {
-        authListener();
-    }, []); 
+    // useEffect(() => {
+    //     authListener();
+    // }, []); 
 
 
 
     return (
         <div>
             <h1>Login</h1>
-            <LoginSection email={email} password={password} setPassword={setPassword} handleLogin={handleLogin} />
+            <LoginSection 
+                email={email} 
+                password={password} 
+                setPassword={setPassword} 
+                handleLogin={handleLogin }
+                handleSignup={handleSignup}
+                hasAccount={hasAccount}
+                setHasAccount={setHasAccount} 
+                emailError={emailError}
+                passwordError={passwordError} />
         </div>
     )
 }
