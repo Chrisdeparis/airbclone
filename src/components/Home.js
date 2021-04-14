@@ -9,11 +9,11 @@ import Hote from './Hote';
 function Home() {
     return (
         <div className="Home">
-            <Logement />
+           <Logement />
             <Localisation />
             <ChezVous />
             <Hote />
-            {/*<Login />*/}
+             {/*<Login />*/}
         </div>
     )
 }

@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'
-import fire from "../Fire";
-import LoginSection from './LoginSection'
+
+// import LoginSection from './LoginSection'
 import Hero from './Hero'
+import './Login.css'
 
 function Login() {
     const [user, setUser] = useState('');
