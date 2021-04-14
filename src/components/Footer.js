@@ -8,7 +8,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LanguageIcon from '@material-ui/icons/Language';
 import EuroIcon from '@material-ui/icons/Euro';
-import { sizing } from '@material-ui/system';
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: 50,
     paddingLeft: 80,
     listStyle: 'none',
+    marginBottom: 20,
   },
   paper: {
     padding: theme.spacing(2),
@@ -112,7 +113,7 @@ export default function CenteredGrid() {
             </div>
           </div>
           <div className="footer__right">
-            <span><FacebookIcon /></span>
+            <span><FacebookIcon color="#484848" /></span>
             <span><TwitterIcon /></span>
             <span><InstagramIcon/></span>
             
