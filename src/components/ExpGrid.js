@@ -21,13 +21,13 @@ export default function NestedGrid() {
   function FormRow() {
     return (
       <React.Fragment>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={4}>
           <div className="exp__pic"></div>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={4}>
         <div className="exp__pic"></div>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={4}>
         <div className="exp__pic"></div>
         </Grid>
       </React.Fragment>
