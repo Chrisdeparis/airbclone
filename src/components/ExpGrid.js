@@ -22,7 +22,7 @@ export default function NestedGrid() {
     return (
       <React.Fragment>
         <Grid item xs={12} sm={4}>
-          <a href="http:/"><div className="exp__pic"></div></a>
+          <a href="http:/"><div className="exp__pic1"></div></a>
         </Grid>
         <Grid item xs={12} sm={4}>
           <a href="http:/"><div className="exp__pic"></div></a>
