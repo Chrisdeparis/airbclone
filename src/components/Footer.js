@@ -97,8 +97,7 @@ export default function CenteredGrid() {
       <div className="footer__bottom">  
           <div className="footer__left">
             © 2021 Airbnb, Inc.
-            <span>·</span>
-            <a href="/">Confidentialité</a>
+            <span>·</span><a href="/">Confidentialité</a>
             <span>·</span><a href="/">Conditions générales</a>
             <span>·</span><a href="/">Plan du site</a>
             <span>·</span><a href="/">Fonctionnement du site</a>

@@ -52,10 +52,11 @@ a:visited{
 }
 
 .footer__center {
-    font-size: 12px;
+    font-size: 13px;
     display:flex;
     position: relative;
     bottom: 10px;
+    font-weight: bold;
 }
 
 .footer__right {
