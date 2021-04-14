@@ -35,7 +35,7 @@ export default function NestedGrid() {
             <Grid container spacing={2}>
               <Grid item xs={12} md={3}>
                 <ChezVousImage />
-                <p>Des Logemnts entiers</p>
+                <p>Logements entiers</p>
               </Grid>
               <Grid item xs={12} md={3}>
                 <ChezVousImage />

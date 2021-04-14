@@ -210,7 +210,7 @@ div.appart__pic {
     list-style: none;
 }
 ul.starIcon {
-    
+    margin-left: 15px;
     list-style: none;
 }
 li.starIcon:first-child {

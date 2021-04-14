@@ -1,7 +1,3 @@
-body {
-    color:#fff;
-}
-
 div.deviensHote {
     background:url('https://a0.muscache.com/im/pictures/59c2cdc5-c78c-48dc-8adf-647a62e77d75.jpg?im_w=720');
     max-width:1190px;
@@ -68,4 +64,8 @@ button.hote__btn {
     border-radius:8px;
     margin-top:15px;
     cursor:pointer;
+}
+
+button.hote__btn:focus {
+    outline:none;
 }

@@ -1,0 +1,9 @@
+div.exp__pic {
+    max-width: 383px;
+    height: 383px;
+    background: url('https://a0.muscache.com/im/pictures/a6b08861-feb8-4a01-a76d-b33d2867b441.jpg?im_w=720');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 9px;
+}
