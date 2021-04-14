@@ -3,6 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import Grid from '@material-ui/core/Grid';
 import './Footer.css';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import LanguageIcon from '@material-ui/icons/Language';
+import EuroIcon from '@material-ui/icons/Euro';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -87,6 +92,25 @@ export default function CenteredGrid() {
             </ul>
         </Grid>
       </Grid>
+      <div className="footer__bottom">  
+          <div className="footer__left">
+          © 2021 Airbnb, Inc.<span>·</span><a href="/">Confidentialité</a><span>·</span>Conditions générales<span>·</span>Plan du site<span>·</span>Fonctionnement du site<span>·</span>Infos sur l'entreprise
+          </div>
+          <div className="footer__center">
+            <div>
+                <a href="/"><LanguageIcon /> Français (FR)</a>
+            </div>  
+            <div>
+                <a href="http:/"><EuroIcon/ > EUR</a>
+            </div>
+          </div>
+          <div className="footer__right">
+            <FacebookIcon />
+            <TwitterIcon /> 
+            <InstagramIcon/>
+            
+          </div>
+      </div>
     </div>
   );
 }

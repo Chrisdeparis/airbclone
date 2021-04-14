@@ -23,4 +23,40 @@ ul{
 h3.footer__title {
     text-transform: uppercase;
     font-size: 12px;
+    color:#222222;
+}
+
+div.footer__right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+span {
+    margin:0 10px;
+}
+
+div.footer__bottom {
+    display: flex;
+    max-width: 1188px;
+    border-top: 1px solid #DDDDDD ;
+    padding-top: 27px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+div.footer__left {
+    font-size: 13px;
+}
+a:visited{
+    color:#222222;
+}
+
+.footer__center {
+    font-size: 12px;
+    display:flex;
+}
+
+.footer__right {
+    display: flex;
+    justify-content: space-between;
 }
