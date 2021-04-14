@@ -8,6 +8,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LanguageIcon from '@material-ui/icons/Language';
 import EuroIcon from '@material-ui/icons/Euro';
+import { sizing } from '@material-ui/system';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -94,20 +95,26 @@ export default function CenteredGrid() {
       </Grid>
       <div className="footer__bottom">  
           <div className="footer__left">
-          © 2021 Airbnb, Inc.<span>·</span><a href="/">Confidentialité</a><span>·</span>Conditions générales<span>·</span>Plan du site<span>·</span>Fonctionnement du site<span>·</span>Infos sur l'entreprise
+            © 2021 Airbnb, Inc.
+            <span>·</span>
+            <a href="/">Confidentialité</a>
+            <span>·</span><a href="/">Conditions générales</a>
+            <span>·</span><a href="/">Plan du site</a>
+            <span>·</span><a href="/">Fonctionnement du site</a>
+            <span>·</span><a href="/">Infos sur l'entreprise</a>
           </div>
           <div className="footer__center">
             <div>
-                <a href="/"><LanguageIcon /> Français (FR)</a>
+                <a href="/"><span><LanguageIcon /></span>Français (FR)</a>
             </div>  
             <div>
-                <a href="http:/"><EuroIcon/ > EUR</a>
+                <a href="http:/"><span><EuroIcon/ ></span>EUR</a>
             </div>
           </div>
           <div className="footer__right">
-            <FacebookIcon />
-            <TwitterIcon /> 
-            <InstagramIcon/>
+            <span><FacebookIcon /></span>
+            <span><TwitterIcon /></span>
+            <span><InstagramIcon/></span>
             
           </div>
       </div>

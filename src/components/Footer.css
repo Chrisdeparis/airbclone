@@ -54,9 +54,18 @@ a:visited{
 .footer__center {
     font-size: 12px;
     display:flex;
+    position: relative;
+    bottom: 10px;
 }
 
 .footer__right {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    bottom: 5px;
 }
+
+.footer__center span {
+    margin:0 5px;
+}
+
