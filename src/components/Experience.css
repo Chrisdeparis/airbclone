@@ -1,6 +1,7 @@
 div.experience {
     max-width: 1260px;
     margin:0 80px;
+    
 }
 h2.exp_title {
     font-size: 34px;
@@ -8,6 +9,7 @@ h2.exp_title {
     margin:0;
     margin-bottom: 10px;
     margin-top: 70px;
+    cursor:text;
 }
 p.exp__p {
     font-size: 30px;
@@ -15,4 +17,9 @@ p.exp__p {
     color:#222222;
     line-height: 27px;
     margin-bottom: 30px;
+    cursor:text;
+}
+
+div.exp__pic {
+    cursor:pointer;
 }

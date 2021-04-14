@@ -45,7 +45,7 @@ div.footer__bottom {
 }
 
 div.footer__left {
-    font-size: 13px;
+    font-size: 12px;
 }
 a:visited{
     color:#222222;
@@ -66,7 +66,17 @@ a:visited{
     bottom: 5px;
 }
 
-.footer__center span {
-    margin:0 5px;
+.footer__right span {
+    width:4px;
+    margin:0 23px;
 }
 
+.footer__center span {
+    margin:0 5px;
+    position: relative;
+    bottom: -7px;
+}
+
+.footer__center svg.MuiSvgIcon-root {
+    width: 15px;
+}

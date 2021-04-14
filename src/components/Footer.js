@@ -112,9 +112,10 @@ export default function CenteredGrid() {
             </div>
           </div>
           <div className="footer__right">
-            <span><FacebookIcon color="#484848" /></span>
-            <span><TwitterIcon /></span>
-            <span><InstagramIcon/></span>
+          
+            <span><a href="/"><FacebookIcon color="#484848" /></a></span>
+            <span><a href="/"><TwitterIcon /></a></span>
+            <span><a href="/"><InstagramIcon/></a></span>
             
           </div>
       </div>
