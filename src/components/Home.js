@@ -5,6 +5,7 @@ import Localisation from "./Localisation";
 import ChezVous from './ChezVous'
 import Login from './Login'
 import Hote from './Hote';
+import Experience from './Experience'
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
             <ChezVous />
             <Hote />
             {/*<Login />*/}
+            <Experience />
         </div>
     )
 }
