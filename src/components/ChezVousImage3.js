@@ -4,7 +4,7 @@ import './ChezVousImage.css';
 function ChezVousImage() {
     return (
         <>
-        <div className="chezvousimage"> 
+        <div className="chezvousimage3"> 
         </div>
         
         

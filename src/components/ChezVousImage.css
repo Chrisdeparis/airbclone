@@ -8,3 +8,36 @@ div.chezvousimage {
     
     border-radius: 8px;
 }
+
+div.chezvousimage2 {
+    background:url('https://a0.muscache.com/im/pictures/36f53e61-db8d-403c-9122-5b761c0e4264.jpg?im_w=720');
+    width: 283px;
+    height:283px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    border-radius: 8px;
+}
+
+div.chezvousimage3 {
+    background:url('https://a0.muscache.com/im/pictures/7f254627-3922-4880-b8fa-545b8551117e.jpg?im_w=720');
+    width: 283px;
+    height:283px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    border-radius: 8px;
+}
+
+div.chezvousimage4 {
+    background:url('https://a0.muscache.com/im/pictures/10a638e1-6aff-4313-8033-1275cec83987.jpg?im_w=720');
+    width: 283px;
+    height:283px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    border-radius: 8px;
+}

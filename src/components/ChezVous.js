@@ -5,6 +5,12 @@ import Grid from '@material-ui/core/Grid';
 import './chezvous.css';
 import Appart from './Appart';
 import ChezVousImage from './ChezVousImage';
+import ChezVousImage2 from './ChezVousImage2';
+import ChezVousImage3 from './ChezVousImage3';
+import ChezVousImage4 from './ChezVousImage4';
+
+
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,15 +44,15 @@ export default function NestedGrid() {
                 <p>Logements entiers</p>
               </Grid>
               <Grid item xs={12} md={3}>
-                <ChezVousImage />
+                <ChezVousImage2 />
                 <p>Des logements uniques</p>
               </Grid>
               <Grid item xs={12} md={3}>
-                <ChezVousImage />
+                <ChezVousImage3 />
                 <p>Ferme et nature</p>
               </Grid>
               <Grid item xs={12} md={3}>
-                <ChezVousImage />
+                <ChezVousImage4 />
                 <p>Animaux de compagnie acceptés</p>
               </Grid> 
             </Grid>
