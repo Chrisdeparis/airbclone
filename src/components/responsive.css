@@ -1,7 +1,7 @@
 @media screen and (max-width: 669px) {
     .footer__mobile {
         height:58px;
-        background:rgb(248, 244, 235);
+        background:rgb(255, 255, 255);
         position:fixed;
         bottom:0;
         left: 0;
@@ -9,11 +9,14 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        border-top: 1px solid #DDDDDD ;
+        color:#FF385C;
     }
 
     .footer__explorer {
         padding-top: 12px;
         margin-right: 80px;
+        cursor:pointer;
     }
 
     .footer__explorer p {
@@ -21,11 +24,20 @@
         bottom: 14px;
         right:6px;
         font-size: 10px;
+        color:#222222;
     }
 
     .footer__favoris {
         padding-top: 12px;
         margin-right: 80px;
+        color: #717171;
+        cursor:pointer;
+    }
+    .footer__favoris:hover {
+        color:#FF385C;
+    }
+    .footer__favoris p:hover {
+        color:#222222;
     }
 
     .footer__favoris p {
@@ -36,15 +48,33 @@
     }
 
     .footer__connect {
-        padding-top: 12px;
+        padding-top: 10px;
         margin-right: 10px;
+        color: #717171;
+        cursor:pointer;
+    }
+
+    .footer__connect:hover {
+        color:#FF385C;
+    }
+    .footer__connect p:hover {
+        color:#222222;
     }
 
     .footer__connect p {
         position: relative;
-        bottom: 14px;
+        bottom: 12px;
         right:10px;
         font-size: 10px;
+    }
+
+    .footer__bottom {
+        flex-direction: column-reverse;
+    }
+
+    .footer__right {
+        justify-content: space-around;
+
     }
 }
 
