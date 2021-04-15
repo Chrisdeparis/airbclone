@@ -27,7 +27,7 @@ function Header() {
             </div>
             
             
-            {/*<div className="recherche">
+            <div className="recherche">
                 <h1>Find hébergements in France on Airbnb</h1>
                 <p>Découvrez des chambres privées ou des logements entiers, parfaitement adaptés à tout type de voyage.</p>
                 <Adresse />
@@ -36,7 +36,7 @@ function Header() {
                 <Grid />
                 <Recherche />
 
-            </div>*/}
+            </div>
 
         </div>
     )

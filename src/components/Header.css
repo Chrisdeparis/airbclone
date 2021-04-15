@@ -10,7 +10,6 @@ body {
 
 .header {
     margin-top: 60px;
-    display: flex;
     font-size: 14px;
     background-image:url("https://a0.muscache.com/im/pictures/5998210c-3dd8-456a-8805-2a044ede1d5e.jpg?im_w=1200");
     background-repeat: no-repeat;
@@ -68,7 +67,7 @@ svg.logo__text {
     background:#fff;
     color:#000;
     position: relative;
-    top: 80px;
+    top: 20px;
     padding:25px 33px;
     margin-left: 80px;
     max-width: 513px;
