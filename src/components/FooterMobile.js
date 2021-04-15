@@ -8,12 +8,12 @@ function FooterMobile() {
     return (
         <div className="footer__mobile">
             <div className="footer__explorer">
-                <SearchIcon />
-                <p>Explorer</p>
+                <a href="http:/"><SearchIcon /></a>
+                <p><a href="http:/">Explorer</a></p>
             </div> 
             <div className="footer__favoris">
-                <FavoriteBorderIcon /> 
-                <p>Favoris</p>
+                <a href="http:/"><FavoriteBorderIcon /> </a>
+                <p><a href="http:/">Favoris</a></p>
             </div>
             <div className="footer__connect">
                 <ContactsIcon />
