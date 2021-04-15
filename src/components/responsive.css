@@ -53,17 +53,21 @@
         font-size: 10px;
     }
 
-    .footer__connect {
+    .footer__connect a svg {
         padding-top: 10px;
         margin-right: 10px;
         color: #717171;
         cursor:pointer;
     }
 
-    .footer__connect:hover {
+    .footer__connect a svg:hover {
         color:#FF385C;
     }
-    .footer__connect p:hover {
+    .footer__connect p  a {
+        text-decoration: none;
+    }
+    .footer__connect p  a:hover {
+        
         color:#222222;
     }
 
@@ -79,9 +83,7 @@
     }
 
     div.footer__right {
-        display: flex;
-        justify-content: space-between;
-
+        display: none;
     }
 }
 

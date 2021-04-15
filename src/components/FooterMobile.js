@@ -12,12 +12,12 @@ function FooterMobile() {
                 <p><a href="http:/">Explorer</a></p>
             </div> 
             <div className="footer__favoris">
-                <a href="http:/"><FavoriteBorderIcon /> </a>
+                <a href="http:/"><FavoriteBorderIcon /></a>
                 <p><a href="http:/">Favoris</a></p>
             </div>
             <div className="footer__connect">
-                <ContactsIcon />
-                <p>Connexion</p>
+            <a href="http:/"><ContactsIcon /></a>
+                <p><a href="http:/">Connexion</a></p>
             </div>
         </div>
     )
