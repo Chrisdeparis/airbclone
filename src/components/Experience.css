@@ -14,9 +14,10 @@ h2.exp_title {
 p.exp__p {
     font-size: 30px;
     margin: 0;
+    margin-bottom:30px;
     color:#222222;
     line-height: 27px;
-    margin-bottom: 30px;
+    
     cursor:text;
 }
 

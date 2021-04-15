@@ -22,13 +22,23 @@ export default function NestedGrid() {
     return (
       <React.Fragment>
         <Grid item xs={12} sm={4}>
-          <a href="http:/"><div className="exp__pic1"></div></a>
+            <div className="exp__pic1"></div>
+            <h3 className="exp__title"><a href="http:/">Expériences en ligne</a></h3>
+            <p className="exp__p"><a href="http:/">Activités interactives en direct, animées par des hôtes.</a></p>
         </Grid>
         <Grid item xs={12} sm={4}>
-          <a href="http:/"><div className="exp__pic2"></div></a>
+          
+          <div className="exp__pic2">
+          </div>
+          <h3 className="exp__title"><a href="http:/">Expériences</a></h3>
+          <p className="exp__p"><a href="http:/">Prenez part à des activités locales, où que vous soyez.</a></p>
+          
+          
         </Grid>
         <Grid item xs={12} sm={4}>
-          <a href="http:/"><div className="exp__pic3"></div></a>
+        <div className="exp__pic3"></div>
+        <h3 className="exp__title"><a href="http:/">Aventures</a></h3>
+        <p className="exp__p"><a href="http:/">Partez pour un voyage de plusieurs jours, repas et logement compris.</a></p>
         </Grid>
       </React.Fragment>
     );
