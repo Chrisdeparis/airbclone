@@ -35,7 +35,7 @@ body {
 }
 
 .header__navbar {
-    width: 95%;
+    display: flex;
 }
 
 .header__menu {
@@ -44,7 +44,7 @@ body {
     font-size: 15px;
     justify-content: flex-end;
     font-size: 15px;
-    width: 95%;
+    
 }
 
 ul.header__menu li {
@@ -54,11 +54,14 @@ ul.header__menu li {
    
 }
 
+.header__logo {
+    display: flex;
+    
+}
 
 svg.logo__text {
     position: relative;
-    top: 35px;
-    
+    bottom: 13px;
 }
 
 .recherche {
@@ -231,12 +234,21 @@ img.appart__photo {
 
 .logo__nav {
     display: flex;
-    width: 1500px;
+    max-width: 1350px;
     height:90px;
     background:black;
+    justify-content: space-between;
 }
 
 .header__menu li a {
     color:white;
     text-decoration: none;
+}
+
+.header__menu li a:hover {
+    color:#767676;
+}
+
+.header__logo a {
+    height: 0;
 }
