@@ -19,10 +19,7 @@ div.OuAllezVous input {
     border:0;
 }
 
-div.OuAllezVous {
-    color:black;
-    height: 71px;
-}
+
 div.OuAllezVous svg {
     left: 32px;
     position: relative;

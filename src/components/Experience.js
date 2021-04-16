@@ -8,6 +8,7 @@ function Experience() {
             <h2 className="exp_title">Découvrez les expériences</h2>
             <p className="exp__p">Des activités uniques avec des experts locaux, en personne ou en ligne</p>
             <ExpGrid />
+            
         </div>
     )
 }
