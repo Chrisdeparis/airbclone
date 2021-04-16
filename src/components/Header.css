@@ -9,7 +9,6 @@ body {
   }
 
 .header {
-    margin-top: 60px;
     font-size: 14px;
     background-image:url("https://a0.muscache.com/im/pictures/5998210c-3dd8-456a-8805-2a044ede1d5e.jpg?im_w=1200");
     background-repeat: no-repeat;
@@ -25,8 +24,8 @@ body {
 .header__icon {
     object-fit: contain;
     height:40px;
-    margin-left:80px;
     margin-top: 24px;
+    margin-bottom: 10px;
 }
 
 .header__center {
@@ -61,7 +60,7 @@ ul.header__menu li {
 
 svg.logo__text {
     position: relative;
-    bottom: 13px;
+    bottom: 22px;
 }
 
 .recherche {
@@ -238,6 +237,7 @@ img.appart__photo {
     height:90px;
     background:black;
     justify-content: space-between;
+    padding:0 80px;
 }
 
 .header__menu li a {

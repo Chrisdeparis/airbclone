@@ -85,6 +85,54 @@
     div.footer__right {
         display: none;
     }
+
+    div.AlertCovid {
+        height:50px;
+        background:#fff;
+    }
+
+    div.AlertCovid p a{
+        color:#222;
+        font-size:12px;
+    }
+    div.AlertCovid p a:hover{
+        color:#000;
+        font-size:12px;
+    }
+
+    div.logo__nav {
+        display: none;
+    }
+
+    div.recherche {
+        display:none;
+    }
+
+    div.explorer {
+        margin-left:20px;
+    }
+
+    div.localisation {
+        margin-left: 20px;
+    }
+
+    div.makeStyles-root-24 {
+        margin-left: 20px;
+    }
+
+    div.makeStyles-root-30 {
+        margin-left: 20px;
+    }
+    div.deviensHote {
+        margin-left: 20px;
+    }
+    div.experience {
+        margin: 0 20px;
+
+    }
+    div.makeStyles-root-28 {
+        padding:0 20px;
+    }
 }
 
 @media screen and (min-width: 670px) {

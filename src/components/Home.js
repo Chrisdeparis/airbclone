@@ -8,12 +8,12 @@ import Hote from './Hote';
 import Experience from './Experience'
 import Footer from './Footer'
 import FooterMobile from './FooterMobile';
-import AlertCovid from './AlertCovid';
+
 
 function Home() {
     return (
         <div className="Home">
-            <AlertCovid />
+            
             <Logement />
             <Localisation />
             <ChezVous />

@@ -38,20 +38,20 @@ export default function NestedGrid() {
         <div  className="chez__vous">
           <h2 className="chezvous__title">Chez vous, partout</h2>
           <div className="chezvous__grid">
-            <Grid container spacing={2}>
-              <Grid item xs={12} md={3}>
+            <Grid container spacing={6}>
+              <Grid item xs={3} md={3}>
                 <ChezVousImage />
                 <p>Logements entiers</p>
               </Grid>
-              <Grid item xs={12} md={3}>
+              <Grid item xs={3} md={3}>
                 <ChezVousImage2 />
                 <p>Des logements uniques</p>
               </Grid>
-              <Grid item xs={12} md={3}>
+              <Grid item xs={3} md={3}>
                 <ChezVousImage3 />
                 <p>Ferme et nature</p>
               </Grid>
-              <Grid item xs={12} md={3}>
+              <Grid item xs={3} md={3}>
                 <ChezVousImage4 />
                 <p>Animaux de compagnie acceptés</p>
               </Grid> 
