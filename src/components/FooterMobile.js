@@ -14,13 +14,12 @@ function FooterMobile() {
     const hideFooter = () => {
         //quand le scroll est en fin de page
         let limit = document.body.offsetHeight - window.innerHeight;
-        if(window.pageYOffset < limit){
-            
-            setFooter(true);
-            console.log('afficher foot');
-        } else {
-            console.log('masquer footer');
-            setFooter(false);
+        if(window.pageYOffset < limit){            
+            const ft = document.getElementById('footer');
+            ft.style.display='';   
+        } else { 
+            const ft = document.getElementById('footer');
+            ft.style.display='none';
         }
        
     };
@@ -46,11 +45,11 @@ function FooterMobile() {
 
 
     return (
-        <div className="footer__mobile" id="footer">
+        <div className={hideFooter ? 'footer__mobile' : 'display:none;'} id="footer">
             <div className="footer__explorer">
                 <a href="http:/"><SearchIcon /></a>
                 <p><a href="http:/">Explorer</a></p>
-            </div> 
+            </div>  
             <div className="footer__favoris">
                 <a href="http:/"><FavoriteBorderIcon /></a>
                 <p><a href="http:/">Favoris</a></p>
