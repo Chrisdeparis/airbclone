@@ -11,6 +11,7 @@
         justify-content: center;
         border-top: 1px solid #DDDDDD ;
         color:#FF385C;
+        overflow: hidden;
     }
 
     .footer__explorer a svg{
