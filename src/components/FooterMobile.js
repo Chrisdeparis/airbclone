@@ -8,13 +8,41 @@ import ContactsIcon from '@material-ui/icons/Contacts';
 
 function FooterMobile() {
     const [footer, setFooter] = useState(false);
-    
+    let scrollTop = 0;
+   
 
     const hideFooter = () => {
         //quand le scroll est en fin de page
-        //le footer disparait de l'écran.
-        const footer = document.getElementById('footer');
+        let limit = document.body.offsetHeight - window.innerHeight;
+        if(window.pageYOffset < limit){
+            
+            setFooter(true);
+            console.log('afficher foot');
+        } else {
+            console.log('masquer footer');
+            setFooter(false);
+        }
+       
     };
+
+    useEffect(() => {
+        hideFooter();
+    });
+
+    const changeBackground = () => {
+        let limit = document.body.offsetHeight - window.innerHeight;
+        if(window.scrollY < limit) {
+            setFooter(true);
+        } else {
+            setFooter(false);
+        }
+
+    };
+
+
+    
+
+    window.addEventListener('scroll', changeBackground);
 
 
     return (
@@ -33,6 +61,6 @@ function FooterMobile() {
             </div>
         </div>
     )
-}
+};
 
-export default FooterMobile
+export default FooterMobile;
