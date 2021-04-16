@@ -1,0 +1,30 @@
+@media screen and (min-width: 670px) {
+    div.OuAllezVous {
+        display: none;
+    }
+    div.OuAllezVous div.MuiFormControl-root.makeStyles-margin-43.MuiFormControl-fullWidth {
+        width:90%;
+    }
+    div.makeStyles-margin-67:focus {
+        outline:none;
+    }
+}
+
+div.OuAllezVous input {
+    width:87%;
+    border-radius: 50px;
+    margin: 14px 21px;
+    padding:14px;
+    outline:none;
+    border:0;
+}
+
+div.OuAllezVous {
+    color:black;
+    height: 71px;
+}
+div.OuAllezVous svg {
+    left: 32px;
+    position: relative;
+    bottom: 46px;
+ }

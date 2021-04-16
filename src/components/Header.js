@@ -8,7 +8,7 @@ import Periode from './Periode';
 import Participant from './Participant';
 import Recherche from './Recherche'
 import Grid from './Grid';
-
+import OuAllezVous from "./OuAllezVous";
 function Header() {
 
     return (
@@ -36,12 +36,10 @@ function Header() {
                 <h1>Find hébergements in France on Airbnb</h1>
                 <p>Découvrez des chambres privées ou des logements entiers, parfaitement adaptés à tout type de voyage.</p>
                 <Adresse />
-                
-                
                 <Grid />
                 <Recherche />
-
             </div>
+            <OuAllezVous />
 
         </div>
     )
