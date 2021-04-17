@@ -23,11 +23,7 @@ function Connection() {
         <button className="connect__btn" onClick={() => setShow(show => !show)}>
             <MenuIcon /><AccountCircleIcon className="user" />
         </button>
-        {show && <Popup show={show} /> }
-            
-             
-             
-             
+            {show && <Popup /> }
         </div>
     )
 }

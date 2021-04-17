@@ -1,11 +1,10 @@
 import React from 'react'
-
+import ModalInscription from './ModalInscription';
 function Popup() {
     return (
         <div className="popup__connect">
-            <div>Inscription</div>
-            <div>Connection</div>
-            
+            <div><ModalInscription /></div>
+            <div>Connexion</div>
             <div>Héberger des voyageurs</div>
             <div>Créer une expérience</div>
             <div>Aide</div>
