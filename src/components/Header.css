@@ -309,8 +309,9 @@ div.popup__connect {
     margin-top: 50px;
     margin: 23px;
     padding: 0;
-    position: relative;
-    top: 13px;
+    position: absolute;
+    top: 105px;
+    right: 62px;
     border-radius: 10px;
     width: 215px;
     background:white;
@@ -325,5 +326,5 @@ div.popup__connect div:first-child {
     font-weight: bold;
 }
 div.popup__connect div:nth-child(2){
-    border-bottom: 1px solid #717171;
+    border-bottom: 1px solid #767676;
 }

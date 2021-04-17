@@ -10,8 +10,6 @@ function Connection() {
     
     const [show, setShow] = useState(false);
 
-    const openModal = () => setShow(true);
-
     console.log(setShow);
 
     useEffect(() => {
@@ -25,7 +23,7 @@ function Connection() {
         <button className="connect__btn" onClick={() => setShow(show => !show)}>
             <MenuIcon /><AccountCircleIcon className="user" />
         </button>
-        {show && <Popup /> }
+        {show && <Popup show={show} /> }
             
              
              
