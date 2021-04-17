@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './OuAllezVous.css';
 import SearchIcon from '@material-ui/icons/Search';
 import Input from '@material-ui/core/Input';
@@ -46,6 +46,7 @@ function OuAllezVous() {
     const handleChange = (prop) => (event) => {
        setValues({ ...values, [prop]: event.target.value });
     };
+    const [stickyTop, setStickyTop] = useState(false);
     return (
         <div className="OuAllezVous">
             
@@ -61,7 +62,7 @@ function OuAllezVous() {
                     labelWidth={60}
                 />
             </FormControl>*/}
-            <input type="text" placeholder="Où allez-vous ?" /> <SearchIcon />
+            <input type="text" placeholder="Où allez-vous ?" className="stickyTop" /> <SearchIcon />
         </div>
     )
 }

@@ -244,6 +244,7 @@ img.appart__photo {
 .header__menu li a {
     color:white;
     text-decoration: none;
+    font-size: 12px;
 }
 
 .header__menu li a:hover {
@@ -252,4 +253,54 @@ img.appart__photo {
 
 .header__logo a {
     height: 0;
+}
+
+button.lang__btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50% 50%;
+    background:transparent;
+    outline:none;
+    cursor:pointer;
+    color:white;
+    border:0;
+    position:relative;
+    top:24px;
+}
+button.lang__btn:hover {
+    background:#222222;
+}
+
+div.lang__btn svg {
+    background: transparent;
+    width: 18px;
+    height:18px;
+    color: white;
+    
+}
+
+button.connect__btn {
+    cursor:pointer;
+    border-radius: 25px;
+    outline:none;
+    border:0;
+    padding: 0px 10px;
+    width: fit-content;
+    position: relative;
+    top: 25px;
+}
+button.connect__btn > svg {
+    width: 16px;
+    position: relative;
+    bottom: 3px;
+}
+
+svg.MuiSvgIcon-root.user {
+    color:#717171;
+    width:10px;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    left: 9px;
+    top: 1px;
 }
