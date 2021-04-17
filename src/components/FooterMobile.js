@@ -7,28 +7,28 @@ import ContactsIcon from '@material-ui/icons/Contacts';
 
 
 function FooterMobile() {
-    const [footer, setFooter] = useState(false);
-    let scrollTop = 0;
-   
+    const [footer, setFooter] = useState(false);   
 
     const hideFooter = () => {
         //quand le scroll est en fin de page
         let limit = document.body.offsetHeight - window.innerHeight;
-        if(window.pageYOffset < limit){            
+        if(window.scrollY < limit){            
             const ft = document.getElementById('footer');
             ft.style.display='';   
         } else { 
             const ft = document.getElementById('footer');
             ft.style.display='none';
+            ft.style.transition='ease 0.3s';
         }
        
     };
 
     useEffect(() => {
         hideFooter();
+        
     });
-
-    const changeBackground = () => {
+    
+    const hideFooterMobile = () => {
         let limit = document.body.offsetHeight - window.innerHeight;
         if(window.scrollY < limit) {
             setFooter(true);
@@ -38,14 +38,11 @@ function FooterMobile() {
 
     };
 
-
-    
-
-    window.addEventListener('scroll', changeBackground);
+    window.addEventListener('scroll', hideFooterMobile);
 
 
     return (
-        <div className={hideFooter ? 'footer__mobile' : 'display:none;'} id="footer">
+        <div className={hideFooter ? 'footer__mobile' : ''} id="footer">
             <div className="footer__explorer">
                 <a href="http:/"><SearchIcon /></a>
                 <p><a href="http:/">Explorer</a></p>
