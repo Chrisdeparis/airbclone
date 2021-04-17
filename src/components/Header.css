@@ -304,3 +304,26 @@ svg.MuiSvgIcon-root.user {
     left: 9px;
     top: 1px;
 }
+
+div.popup__connect {
+    margin-top: 50px;
+    margin: 23px;
+    padding: 0;
+    position: relative;
+    top: 13px;
+    border-radius: 10px;
+    width: 215px;
+    background:white;
+    color:black;
+}
+
+.popup__connect div {
+    padding: 13px 15px;
+}
+
+div.popup__connect div:first-child {
+    font-weight: bold;
+}
+div.popup__connect div:nth-child(2){
+    border-bottom: 1px solid #717171;
+}
