@@ -31,14 +31,15 @@ function Connection() {
             style={
                 {
                     overlay: {
-                        backgroundColor: 'transparent'
+                        backgroundColor: 'transparent',
+                        cursor:'pointer',
                     },
                     content: {
                         position:'absolute',
 
-                        right:'0px',
-                        width:'300px',
-                        height:'250px',
+                        right:'87px',
+                        width:'215px',
+                        height:'236px',
                         
                         overflow:'none',
                         

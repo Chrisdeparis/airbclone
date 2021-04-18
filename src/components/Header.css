@@ -289,6 +289,9 @@ button.connect__btn {
     position: relative;
     top: 25px;
 }
+button.connect__btn:active {
+    cursor:pointer;
+}
 button.connect__btn > svg {
     width: 16px;
     position: relative;
@@ -320,7 +323,7 @@ div.popup__connect {
     cursor:pointer;
 }
 .popup__connect div:hover {
-    background-color: #ecdddd;
+    background-color: #dadae99a;
 }
 .popup__connect div:first-of-type:hover {
     border-top-left-radius: 9px;
