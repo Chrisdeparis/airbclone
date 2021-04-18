@@ -118,9 +118,9 @@ function StickyTop() {
         <NavSticky id="stickyTop__nav">
             <Img src="img/logo.svg" alt=""/>
             <InputSticky type="text" placeholder="Commencer votre recherche" /> 
-            <divIcon>
+            <div className="navsticky__icon">
                 <SearchIcon  />
-            </divIcon>
+            </div>
             <div className="header__right">
                 <DevenezHote />
                 <Langues />
