@@ -10,6 +10,7 @@ import RechercheHeb from './RechercheHeb';
 import DevenezHote from './DevenezHote';
 import Langues from './Langues';
 import Connection from './Connection';
+import StickyTop from './StickyTop';
 
 
 
@@ -28,6 +29,7 @@ function Header() {
             </div>
             <RechercheHeb />
             <OuAllezVous />
+            <StickyTop />
         </div>
     )
 }

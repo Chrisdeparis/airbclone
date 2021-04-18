@@ -32,7 +32,7 @@ function Connection() {
                 {
                     overlay: {
                         backgroundColor: 'transparent',
-                        cursor:'pointer',
+                        
                     },
                     content: {
                         position:'absolute',
