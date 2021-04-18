@@ -46,7 +46,7 @@ function StickyTop() {
     const NavSticky = styled.div`
         position:fixed;
         display:flex;
-
+        justify-content:space-between;
         width:90%;
         top:0;
         height: 80px;
@@ -121,6 +121,11 @@ function StickyTop() {
             <divIcon>
                 <SearchIcon  />
             </divIcon>
+            <div className="header__right">
+                <DevenezHote />
+                <Langues />
+                <Connection />
+            </div>
                 
             
         </NavSticky>
