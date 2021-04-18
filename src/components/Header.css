@@ -333,3 +333,10 @@ div.header__right {
     width:225px;
     display: flex;
 }
+div.ReactModal__Content.ReactModal__Content--after-open.popup__right {
+    width:225px;
+    position:absolute;
+    right: 0px;
+    border:0;
+    outline:none;
+}
