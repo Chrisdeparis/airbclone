@@ -1,7 +1,9 @@
 import React, {useState, useEffect} from 'react'
 
 import styled from 'styled-components';
-
+import DevenezHote from './DevenezHote';
+import Langues from './Langues';
+import Connection from './Connection';
 
 
 
@@ -49,11 +51,17 @@ function StickyTop() {
         z-index: 1000;
         opacity:1!important;
     `;
+    
+    const Img = styled.img`
+        color:#f02f99;
+    `;
 
+    
 
     return (
         <NavSticky className={stickyTop ? 'stickyTop__nav' : ''} id="stickyTop__nav">
-            <h1>Le Sticky Top</h1>
+            <Img className="sticky__icon" src="img/airbnb-svg.svg" alt=""/>
+              
         </NavSticky>
     )
 };
