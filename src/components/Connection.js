@@ -24,7 +24,7 @@ function Connection() {
         <button className="connect__btn" onClick={() => setShow(show => !show)}>
             <MenuIcon /><AccountCircleIcon className="user" />
         </button>
-        <Modal className="popup__right" 
+        <Modal className="popup__right" id="right"
             isOpen={show}
             shouldCloseOnOverlayClick={true}
             onRequestClose={() => setShow(false)}
@@ -35,13 +35,13 @@ function Connection() {
                     },
                     content: {
                         position:'absolute',
-                        float:'right',
-                        right:'0',
+
+                        right:'0px',
                         width:'300px',
                         height:'250px',
-                        right:'40px',
+                        
                         overflow:'none',
-                        inset:'0',
+                        
                         backgroundColor:'transparent',
                         border:'0',
                         
