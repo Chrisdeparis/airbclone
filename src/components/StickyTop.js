@@ -46,7 +46,7 @@ function StickyTop() {
         width:100%;
         top:0;
         height: 80px;
-        background:#fff!important;
+        background:red;
         color:#000;
         z-index: 1000;
         opacity:1!important;
