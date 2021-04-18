@@ -50,7 +50,7 @@ function Connection() {
             } >
             <Popup />
         </Modal>
-            
+            { show }
         </div>
     )
 }

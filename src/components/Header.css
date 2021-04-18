@@ -306,10 +306,7 @@ svg.MuiSvgIcon-root.user {
 }
 
 div.popup__connect {
-    margin-top: 50px;
-    margin: 23px;
     padding: 0;
-    position: absolute;
     top: 105px;
     right: 62px;
     border-radius: 10px;
@@ -320,6 +317,18 @@ div.popup__connect {
 
 .popup__connect div {
     padding: 13px 15px;
+    cursor:pointer;
+}
+.popup__connect div:hover {
+    background-color: #ecdddd;
+}
+.popup__connect div:first-of-type:hover {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+.popup__connect div:last-of-type:hover {
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
 div.popup__connect div:first-child {
@@ -336,6 +345,7 @@ div.header__right {
 div.ReactModal__Content.ReactModal__Content--after-open.popup__right#right {
     width:225px;
     position:absolute;
+    top:128px;
     right: 70px;
     border:0;
     outline:none;
