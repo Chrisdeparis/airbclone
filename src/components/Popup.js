@@ -1,5 +1,7 @@
 import React from 'react'
 import ModalInscription from './ModalInscription';
+
+
 function Popup() {
     return (
         <div className="popup__connect">

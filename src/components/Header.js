@@ -20,9 +20,11 @@ function Header() {
             <div className="logo__nav">
                 <HeaderLogo />
                 <HeaderCenter />
-                <DevenezHote />
-                <Langues />
-                <Connection />
+                <div className="header__right">
+                    <DevenezHote />
+                    <Langues />
+                    <Connection />
+                </div>
             </div>
             <RechercheHeb />
             <OuAllezVous />
