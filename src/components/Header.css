@@ -355,15 +355,10 @@ div.ReactModal__Content.ReactModal__Content--after-open.popup__right#right {
 }
 
 .navsticky__icon {
-    position: relative;
-    top: 26px;
-    height: 28px;
-    width: 28px;
-    border-radius: 50%;
-    background: #ff385c;
+   
 }
 
-.navsticky__icon svg {
+/* .navsticky__icon svg {
  
         background: #ff385c;
         width: 18px;
@@ -374,4 +369,4 @@ div.ReactModal__Content.ReactModal__Content--after-open.popup__right#right {
         color: #fff;
         cursor: pointer;
 
-}
+} */

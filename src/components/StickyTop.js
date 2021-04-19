@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import DevenezHote from './DevenezHote';
 import Langues from './Langues';
 import Connection from './Connection';
-
+import { makeStyles } from '@material-ui/core/styles';
 import SearchIcon from '@material-ui/icons/Search';
 
 
@@ -67,12 +67,12 @@ function StickyTop() {
         
     `;
     const InputSticky = styled.input`
-        width: 220px;
-        height: 30px;
+        width: 240px;
+        height: 32px;
         border-radius: 50px;
         outline: none;
         border: 1px solid #dfdfdf;
-        text-align: center;
+        padding-left:20px;
         cursor: pointer;
         font-weight: bold;
         color: black;
@@ -81,6 +81,8 @@ function StickyTop() {
         top:22px;
         &::placeholder {
             color:#222222;
+
+
         }
         &:hover {
             -webkit-box-shadow: 0 5px 6px -6px #767676;
@@ -89,25 +91,39 @@ function StickyTop() {
         }
     `;
 
-    const divIcon = styled.svg`
-        position: relative;
-        top: 26px;
-        height: 28px;
-        width: 28px;
-        border-radius: 50%;
-        background: #ff385c;
-    `;
+    
 
-    const mysearchicon = styled.svg`
-        background: #ff385c;
-        width: 18px;
-        height: 18px;
-        position: relative;
-        top: 5px;
-        left: 5px;
-        color: #fff;
-        cursor: pointer;
-    `;
+    
+
+
+    const useStyles = makeStyles({
+        sticky__btn__search: {
+        background: '#ff385c',
+        width: '18px',
+        height: '18px',
+        position: 'relative',
+        top: '5px',
+        left: '5px',
+        color: '#fff',
+        cursor: 'pointer',
+        
+        },
+        root: {
+            position: 'relative',
+            top: '26px',
+            height: '28px',
+            width: '28px',
+            borderRadius: '50%',
+            background: '#ff385c',
+            right: '32px',
+        },
+        stickycenter: {
+            display: "flex",
+        }
+
+    });
+
+    const classes = useStyles();
 
     
     
@@ -117,10 +133,13 @@ function StickyTop() {
     return (
         <NavSticky id="stickyTop__nav">
             <Img src="img/logo.svg" alt=""/>
-            <InputSticky type="text" placeholder="Commencer votre recherche" /> 
-            <div className="navsticky__icon">
-                <SearchIcon  />
+            <div className={classes.stickycenter}>
+                <InputSticky type="text" placeholder="Commencer votre recherche" /> 
+                <div className={classes.root}>
+                    <SearchIcon className={classes.sticky__btn__search}                                          />
+                </div>
             </div>
+            
             <div className="header__right">
                 <DevenezHote />
                 <Langues />
