@@ -4,13 +4,11 @@ import './Header.css';
 
 
 import OuAllezVous from "./OuAllezVous";
-import HeaderLogo from './HeaderLogo';
-import HeaderCenter from './HeaderCenter';
+
 import RechercheHeb from './RechercheHeb';
-import DevenezHote from './DevenezHote';
-import Langues from './Langues';
-import Connection from './Connection';
+
 import StickyTop from './StickyTop';
+import NavFirst from './NavFirst';
 
 
 
@@ -18,15 +16,7 @@ function Header() {
 
     return (
         <div className="header">
-            <div className="logo__nav">
-                <HeaderLogo />
-                <HeaderCenter />
-                <div className="header__right">
-                    <DevenezHote />
-                    <Langues />
-                    <Connection />
-                </div>
-            </div>
+            <NavFirst />
             <RechercheHeb />
             <OuAllezVous />
             <StickyTop />

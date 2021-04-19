@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 // import './DevenezHote.css';
 
-function DevenezHote() {
+function DevenezHoteW() {
     
 
     const divHote = styled.div`
@@ -30,11 +30,11 @@ function DevenezHote() {
         top:'24px',
         border:'0',
         background:'transparent',
-        color:'#fff',
+        color:'black',
         cursor:'pointer',
         '&:hover': {
-            background:'#222222',
-            color: '#FFF'
+            background:'#ddebf15c',
+            color: 'black'
         },
         'a':{
             color: '#FFF',
@@ -53,4 +53,4 @@ function DevenezHote() {
     )
 }
 
-export default DevenezHote
+export default DevenezHoteW

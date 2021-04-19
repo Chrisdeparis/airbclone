@@ -55,6 +55,7 @@ ul.header__menu li {
 
 .header__logo {
     display: flex;
+    min-width: 103px;
     
 }
 
@@ -232,14 +233,7 @@ img.appart__photo {
     background-color:red;
 }
 
-.logo__nav {
-    display: flex;
-    max-width: 1350px;
-    height:90px;
-    background:black;
-    justify-content: space-between;
-    padding:0 80px;
-}
+
 
 .header__menu li a {
     color:white;
@@ -267,8 +261,23 @@ button.lang__btn {
     position:relative;
     top:24px;
 }
+button.lang__btnW {
+    height: 40px;
+    width: 40px;
+    border-radius: 50% 50%;
+    background:transparent;
+    outline:none;
+    cursor:pointer;
+    color:black;
+    border:0;
+    position:relative;
+    top:24px;
+}
 button.lang__btn:hover {
     background:#222222;
+}
+button.lang__btnW:hover {
+    background:#ddebf15c;
 }
 
 div.lang__btn svg {
@@ -285,7 +294,7 @@ button.connect__btn {
     outline:none;
     border:0;
     padding: 0px 10px;
-    width: fit-content;
+    width: 70px;
     position: relative;
     top: 25px;
     background: white;
@@ -355,6 +364,18 @@ div.ReactModal__Content.ReactModal__Content--after-open.popup__right#right {
     border:0;
     outline:none;
 }
+
+/* div.ReactModal__Content.ReactModal__Content--after-open.popup__rightW#rightW {
+    width:225px;
+    opacity:1;
+    z-index:10000;
+    position:absolute;
+    top:70px;
+    right: 40px;
+    border:0;
+    outline:none;
+    
+} */
 
 .navsticky__icon {
    

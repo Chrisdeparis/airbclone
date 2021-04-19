@@ -7,7 +7,7 @@ import Modal from 'react-modal';
 
 Modal.setAppElement('#root');
 
-function Connection() {
+function ConnectionW() {
     
     const [show, setShow] = useState(false);
 
@@ -24,7 +24,7 @@ function Connection() {
         <button className="connect__btn" onClick={() => setShow(show => !show)}>
             <MenuIcon /><AccountCircleIcon className="user" />
         </button>
-        <Modal className="popup__right" id="right"
+        <Modal className="popup__rightW" id="rightW"
             isOpen={show}
             shouldCloseOnOverlayClick={true}
             onRequestClose={() => setShow(false)}
@@ -32,15 +32,19 @@ function Connection() {
                 {
                     overlay: {
                         backgroundColor: 'transparent',
+                        
                     },
                     content: {
                         position:'absolute',
+                        opacity:'1',
                         right:'87px',
                         width:'215px',
                         height:'236px',
-                        overflow:'none',        
+                        top:'0px',
+                        overflow:'none',
                         backgroundColor:'transparent',
                         border:'0',
+                        
                     },
                 }
             } >
@@ -51,4 +55,4 @@ function Connection() {
     )
 }
 
-export default Connection
+export default ConnectionW
