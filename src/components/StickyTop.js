@@ -101,6 +101,10 @@ function StickyTop() {
         }
     `;
 
+    const HeaderRightW = styled.div`
+        display:flex;
+    `;
+
     
 
     
@@ -156,11 +160,11 @@ function StickyTop() {
                     <SearchIcon className={classes.sticky__btn__search}                                          />
                 </div>
             </div>
-            <div className="header__right">
+            <HeaderRightW>
                 <DevenezHoteW />
                 <LanguesW fontSize="small"/>
                 <Connection />
-            </div> 
+            </HeaderRightW> 
         </NavSticky>
     )
 };

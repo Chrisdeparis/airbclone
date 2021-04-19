@@ -44,7 +44,11 @@ function ConnectionW() {
                         overflow:'none',
                         backgroundColor:'transparent',
                         border:'0',
-                        
+                        '&:hover': {
+                            webkitBoxShadow: '0 5px 6px -6px #767676',
+                            mozBoxShadow: '0 5px 6px -6px #767676',
+                            boxShadow: '0 5px 6px -6px #767676',
+                        },
                     },
                 }
             } >

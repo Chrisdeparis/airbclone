@@ -261,24 +261,11 @@ button.lang__btn {
     position:relative;
     top:24px;
 }
-button.lang__btnW {
-    height: 40px;
-    width: 40px;
-    border-radius: 50% 50%;
-    background:transparent;
-    outline:none;
-    cursor:pointer;
-    color:black;
-    border:0;
-    position:relative;
-    top:24px;
-}
+
 button.lang__btn:hover {
     background:#222222;
 }
-button.lang__btnW:hover {
-    background:#ddebf15c;
-}
+
 
 div.lang__btn svg {
     background: transparent;
@@ -300,6 +287,7 @@ button.connect__btn {
     background: white;
     border: 1px solid #d7cfcf;
 }
+
 button.connect__btn:active {
     cursor:pointer;
 }
@@ -353,8 +341,7 @@ div.popup__connect div:nth-child(2){
 }
 
 div.header__right {
-    width:225px;
-    display: flex;
+    
 }
 div.ReactModal__Content.ReactModal__Content--after-open.popup__right#right {
     width:225px;
