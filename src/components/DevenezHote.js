@@ -1,9 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import { makeStyles } from '@material-ui/core/styles';  
+import Button from '@material-ui/core/Button';
 // import './DevenezHote.css';
 
 function DevenezHote() {
+    
 
     const divHote = styled.div`
         height: fit-content;
@@ -13,34 +15,39 @@ function DevenezHote() {
     `;
 
     const Btn = styled.button`
-        padding:10px 15px;
-        border-radius: 50px;
-        outline:none;
-        position:relative;
-        top:24px;
-        border:0;
-        background:transparent;
-        color:#fff;
         
-        &:a {
-            color:#fff;
-        }
-        &:hover {
-            background:#222222;
-            color:#fff;
-        }
-    `;
-
-    const HoteLien = styled.a`
-        color: white;
-        text-decoration: none;
     `;
 
     
 
+    const useStyles = makeStyles({
+        root:{
+            padding:'10px 15px',
+        borderRadius: '50px',
+        outline:'none',
+        position:'relative',
+        top:'24px',
+        border:'0',
+        background:'transparent',
+        color:'#fff',
+        cursor:'pointer',
+        '&:hover': {
+            background:'#222222',
+            color: '#FFF'
+        },
+        'a':{
+            color: '#FFF',
+        }
+        },      
+    });
+
+    const classes = useStyles();
+
     return (
+
+        
         <divHote>
-           <Btn><HoteLien href="http:/">Devenez hôte</HoteLien></Btn> 
+           <div className={classes.root}>Devenez hôte<a className={classes.a} href="http:/"></a></div> 
         </divHote>
     )
 }

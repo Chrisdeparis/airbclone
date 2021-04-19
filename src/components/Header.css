@@ -288,6 +288,8 @@ button.connect__btn {
     width: fit-content;
     position: relative;
     top: 25px;
+    background: white;
+    border: 1px solid #d7cfcf;
 }
 button.connect__btn:active {
     cursor:pointer;

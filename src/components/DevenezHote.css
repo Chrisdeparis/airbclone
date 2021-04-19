@@ -22,3 +22,17 @@ div.devenezHote__btn {
     position: relative;
     top:28px;
 }
+
+div.devenezHote__btnW {
+    padding:10px 15px;
+    border-radius: 50px;
+    outline:none;
+    border:0;
+    background:transparent;
+    color:black;
+    text-decoration: none;
+}
+div.devenezHote__btnW button:hover {
+    background:grey;
+}  
+
