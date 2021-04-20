@@ -52,8 +52,8 @@ function StickyTop() {
     const NavSticky = styled.div`
         position:fixed;
         display:flex;
-        justify-content:space-between;
-        width:90%;
+        
+        max-width: 90%;
         top:0;
         height: 90px;
         background:#fff;
@@ -62,8 +62,21 @@ function StickyTop() {
         opacity:1;
         padding:0 80px;
         -webkit-box-shadow: 0 5px 4px -6px #767676;
-            -moz-box-shadow: 0 5px 4px -6px #767676;
-            box-shadow: 0 5px 4px -6px #767676;
+        -moz-box-shadow: 0 5px 4px -6px #767676;
+        box-shadow: 0 5px 4px -6px #767676;
+
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 90px;
+        background: white;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0 80px;
     `;
 
     const svg =  styled.svg`

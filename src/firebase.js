@@ -1,18 +1,17 @@
-import firebase from 'firebase';
+import firebase from 'firebase/app';
+import "firebase/firestore";
 
-const config = {
-    apiKey: process.env.REACT_APP_API_KEY,
-    authDomain: process.env.REACT_APP_AUTHDOMAIN,
-    databaseURL: process.env.REACT_APP_DATABASEURL,
-    projectId: process.env.REACT_APP_PROJECTID,
-    storageBucket: process.env.REACT_APP_STORAGEBUCKET,
-    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_APP_ID
-  };
-
+var firebaseConfig = {
+  apiKey: "AIzaSyBLM3Yp3hB1S4GyiBRSiKXenyRUNq8p1zI",
+  authDomain: "airbclone.firebaseapp.com",
+  projectId: "airbclone",
+  storageBucket: "airbclone.appspot.com",
+  messagingSenderId: "364710948640",
+  appId: "1:364710948640:web:b3f4d8cd917ee5e439f145",
+  measurementId: "G-1LYL603MK4"
+};
 // Initialize Firebase
-firebase.initializeApp(config);
-
-export const auth = firebase.auth();
+firebase.initializeApp(firebaseConfig);
+// firebase.analytics();
 
 export default firebase;
