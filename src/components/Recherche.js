@@ -19,7 +19,7 @@ export default function ContainedButtons() {
   return (
     <div className={classes.root}>
       
-      <Button variant="contained" color="secondary" fullWidth>
+      <Button variant="contained" color="secondary">
         Rechercher
       </Button>
       

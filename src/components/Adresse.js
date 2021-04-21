@@ -5,7 +5,8 @@ import {
 
 } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
-
+import Grid from './Grid'
+import Recherche from './Recherche';
 
 
 
@@ -61,6 +62,8 @@ export default function CustomizedInputs() {
         variant="filled"
         fullWidth
       />
+      <Grid />
+      <Recherche fullWidth />
     </form>
   );
 }

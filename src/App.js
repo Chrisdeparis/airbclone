@@ -52,39 +52,35 @@ function App() {
   
 
   return (
+    <>
     <Router>
       <AlertCovid />
       <Header />
       <div className="App">
-        {/*<div className="appartement">
-          <img src="../public/img/5998210c-3dd8-456a-8805-2a044ede1d5e.webp" alt=""/>
+        {/*{appartements.map((appart) => (
+          <div className="appartement">
+          <img src="" alt=""/>
           <div>
             <div className="appart__title">
-              <h2>Title</h2><FavoriteBorderIcon />
+              <h2>{appart.title}</h2><FavoriteBorderIcon />
             </div>
             <p>description</p>
             <p>conditions</p>
             <p>4,83 étoiles </p>
             <p><strong>71€</strong> / nuit</p>
           </div>
-          {appartements.map((appart) => (
-            <Appartement className="appart" key={appart.id}>
-              <p>{appart.title}</p>
-              <p>{appart.description}</p>
-              <p>{appart.condition}</p>
-              <p>{appart.address}</p>
-              <p>{appart.price}€ / nuit</p>
-            </Appartement>
-         ))}
-        </div>*/}
+        </div>
+        ))}*/}
+        
+
         <Switch>
           <Route path="/">
             <Home />
           </Route>
-         
         </Switch>
       </div>
     </Router>
+    </>
   );
 }
 
