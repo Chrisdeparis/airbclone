@@ -81,3 +81,11 @@ a:visited{
 .footer__center svg.MuiSvgIcon-root {
     width: 15px;
 }
+
+div.makeStyles-root-44 {
+    padding-left: 20px;
+}
+
+div.footer__center div a {
+    color:#222222;
+}

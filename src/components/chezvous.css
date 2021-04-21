@@ -12,3 +12,7 @@ h2.chezvous__title {
 div.chezvous__grid {
     display: flex;
 }
+
+div.makeStyles-root-40 {
+    margin-left: 0;
+}
