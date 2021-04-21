@@ -176,7 +176,7 @@ function StickyTop() {
             <HeaderRightW>
                 <DevenezHoteW />
                 <LanguesW fontSize="small"/>
-                {/*<Connection />*/}
+                <Connection />
             </HeaderRightW> 
         </NavSticky>
     )
