@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({
       textTransform: 'none',
       height:47,
       fontSize:'16px',
+      width: '100%'
     },
   },
 }));
