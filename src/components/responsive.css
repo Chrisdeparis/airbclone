@@ -213,10 +213,18 @@
     div.makeStyles-root-34 {
         margin:0;
     }
+    div.makeStyles-root-40 {
+        margin-left: 0px;
+    }
+
 }
 
 @media screen and (min-width: 670px) {
     .footer__mobile {
         display:none;
+    }
+
+    div.makeStyles-root-40 {
+        margin-left: 80px;
     }
 }
