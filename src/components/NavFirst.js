@@ -8,7 +8,7 @@ import styled from 'styled-components'
 
 const LogoNav = styled.div`
     display: flex;
-    max-width: 1350px;
+    
     height:90px;
     background:black;
     justify-content: space-between;

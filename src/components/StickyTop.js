@@ -53,7 +53,7 @@ function StickyTop() {
         position:fixed;
         display:flex;
         
-        max-width: 90%;
+        
         top:0;
         height: 90px;
         background:#fff;
@@ -77,6 +77,7 @@ function StickyTop() {
         -ms-flex-pack: justify;
         justify-content: space-between;
         padding: 0 80px;
+        
     `;
 
     const svg =  styled.svg`
@@ -116,6 +117,8 @@ function StickyTop() {
 
     const HeaderRightW = styled.div`
         display:flex;
+        margin-right:80px;
+        padding-right:80px;
     `;
 
     
