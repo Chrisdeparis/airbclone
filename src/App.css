@@ -46,3 +46,21 @@ div.makeStyles-root-32 {
 div.makeStyles-root-40 {
     margin:0 auto;
 }
+
+div.localisation div {
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+div.localisation h2 {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+div.localisation p {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+  
+}
