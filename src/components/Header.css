@@ -116,8 +116,7 @@ label.Mui-focused .MuiInputLabel-animated {
 }
 
 .explorer {
-    margin-top:40px;
-    margin-left:80px;
+    margin:0 auto;
     background:url("https://a0.muscache.com/im/pictures/5ce840f1-98dd-42bf-9c26-c5fe8c3ff767.jpg?im_w=960");
     max-width:1190px;
     height:300px;
@@ -166,7 +165,7 @@ a.logement__lien {
 
 .localisation {
     margin-top:42px;
-    margin-left:80px;
+    
 }
 
 a.localisation__link {

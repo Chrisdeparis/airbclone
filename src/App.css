@@ -38,3 +38,11 @@ body {
 .appartement div p:nth-child(3){
     color:rgb(206, 184, 184);
 }
+
+div.makeStyles-root-32 {
+    margin:0 auto;
+}
+
+div.makeStyles-root-40 {
+    margin:0 auto;
+}

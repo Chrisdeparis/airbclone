@@ -37,7 +37,7 @@ span {
 
 div.footer__bottom {
     display: flex;
-    max-width: 1188px;
+    
     border-top: 1px solid #DDDDDD ;
     padding-top: 27px;
     justify-content: space-between;
