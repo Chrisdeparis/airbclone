@@ -1,6 +1,6 @@
 import React from "react";
 
-function AppartPhoto() {
+const AppartPhoto = () => {
   return (
     <div>
       <div className="appart__photo"></div>
