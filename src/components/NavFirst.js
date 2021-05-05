@@ -19,7 +19,7 @@ const HeaderRight = styled.div`
     display: flex;
 `;
 
-function NavFirst() {
+const NavFirst = () => {
     return (
         <>
             <LogoNav>
