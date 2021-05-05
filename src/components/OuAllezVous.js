@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
   }));
 
 
-function OuAllezVous() {
+const OuAllezVous = () => {
     const classes = useStyles();
     const [values, setValues] = React.useState({
         amount: '',
