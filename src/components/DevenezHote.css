@@ -1,47 +1,43 @@
-
-
-
 div.devenezHote__btn button {
-    padding:10px 15px;
-    border-radius: 50px;
-    outline:none;
-    border:0;
-    background:transparent;
-    
+  padding: 10px 15px;
+  border-radius: 50px;
+  outline: none;
+  border: 0;
+  background: transparent;
 }
 
 div.devenezHote__btn button a {
-    color:white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 div.devenezHote__btn button:hover {
-    background:#222222;
+  background: #222222;
 }
 div.devenezHote__btn {
-    height: fit-content;
-    position: relative;
-    top:28px;
+  height: fit-content;
+  position: relative;
+  top: 28px;
 }
 
 div.devenezHote__btnW {
-    padding:10px 15px;
-    border-radius: 50px;
-    outline:none;
-    border:0;
-    background:transparent;
-    color:black;
-    text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  outline: none;
+  border: 0;
+  background: transparent;
+  color: black;
+  text-decoration: none;
 }
 div.devenezHote__btnW button:hover {
-    background:grey;
-}  
-
-div.makeStyles-root-1833 {
-    color:black;
-    background:white;
+  background: grey;
 }
 
-div.btnWhite{
-    color: black;
-    background: #e0edff;
+div.makeStyles-root-1833 {
+  color: black;
+  background: white;
+}
+
+div.btnWhite {
+  color: black;
+  background: #e0edff;
 }

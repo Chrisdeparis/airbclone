@@ -19,7 +19,7 @@
 
 //     const clearErrors = () => {
 //         setEmailError('');
-//         setPasswordError(); 
+//         setPasswordError();
 //     }
 
 //     const handleLogin = () => {
@@ -76,21 +76,19 @@
 
 //     // useEffect(() => {
 //     //     authListener();
-//     // }, []); 
-
-
+//     // }, []);
 
 //     return (
 //         <div>
 //             <h1>Login</h1>
-//             <LoginSection 
-//                 email={email} 
-//                 password={password} 
-//                 setPassword={setPassword} 
+//             <LoginSection
+//                 email={email}
+//                 password={password}
+//                 setPassword={setPassword}
 //                 handleLogin={handleLogin }
 //                 handleSignup={handleSignup}
 //                 hasAccount={hasAccount}
-//                 setHasAccount={setHasAccount} 
+//                 setHasAccount={setHasAccount}
 //                 emailError={emailError}
 //                 passwordError={passwordError} />
 //         </div>

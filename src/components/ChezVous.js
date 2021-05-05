@@ -1,29 +1,26 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
-import Grid from '@material-ui/core/Grid';
-import './chezvous.css';
-import Appart from './Appart';
-import ChezVousImage from './ChezVousImage';
-import ChezVousImage2 from './ChezVousImage2';
-import ChezVousImage3 from './ChezVousImage3';
-import ChezVousImage4 from './ChezVousImage4';
-
-
-
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
+import "./chezvous.css";
+import Appart from "./Appart";
+import ChezVousImage from "./ChezVousImage";
+import ChezVousImage2 from "./ChezVousImage2";
+import ChezVousImage3 from "./ChezVousImage3";
+import ChezVousImage4 from "./ChezVousImage4";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     maxWidth: 1180,
     marginLeft: 80,
-    fontWeight: 'bold',
-    color:'#222222',
-    fontSize:17,
+    fontWeight: "bold",
+    color: "#222222",
+    fontSize: 17,
   },
   paper: {
     padding: theme.spacing(2),
-    textAlign: 'center',
+    textAlign: "center",
     color: theme.palette.text.secondary,
   },
 }));
@@ -33,9 +30,8 @@ export default function NestedGrid() {
 
   function FormRow() {
     return (
-      <React.Fragment >
-      
-        <div  className="chez__vous">
+      <React.Fragment>
+        <div className="chez__vous">
           <h2 className="chezvous__title">Chez vous, partout</h2>
           <div className="chezvous__grid">
             <Grid container spacing={6}>
@@ -54,12 +50,10 @@ export default function NestedGrid() {
               <Grid item xs={6} md={3}>
                 <ChezVousImage4 />
                 <p>Animaux de compagnie acceptés</p>
-              </Grid> 
+              </Grid>
             </Grid>
           </div>
         </div>
-        
-        
       </React.Fragment>
     );
   }
@@ -70,9 +64,7 @@ export default function NestedGrid() {
         <Grid container item xs={12} spacing={2}>
           <FormRow />
         </Grid>
-        
       </Grid>
     </div>
   );
 }
-

@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function AppartPhoto() {
-    return (
-        <div>
-            <div className="appart__photo"></div>
-        </div>
-    )
+  return (
+    <div>
+      <div className="appart__photo"></div>
+    </div>
+  );
 }
 
-export default AppartPhoto
+export default AppartPhoto;

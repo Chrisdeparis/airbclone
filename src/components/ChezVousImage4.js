@@ -1,15 +1,12 @@
-import React from 'react'
-import './ChezVousImage.css';
+import React from "react";
+import "./ChezVousImage.css";
 
 function ChezVousImage() {
-    return (
-        <>
-        <div className="chezvousimage4"> 
-        </div>
-        
-        
-        </>
-    )
+  return (
+    <>
+      <div className="chezvousimage4"></div>
+    </>
+  );
 }
 
-export default ChezVousImage
+export default ChezVousImage;

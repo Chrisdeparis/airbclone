@@ -1,74 +1,77 @@
 div.deviensHote {
-    background:url('https://a0.muscache.com/im/pictures/59c2cdc5-c78c-48dc-8adf-647a62e77d75.jpg?im_w=720');
-    max-width:1190px;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin-left:80px;
-    border-radius:9px;
-    margin-top: 70px;
-    margin:0 auto;
-    /* color:#fff; */
-};
+  background: url("https://a0.muscache.com/im/pictures/59c2cdc5-c78c-48dc-8adf-647a62e77d75.jpg?im_w=720");
+  max-width: 1190px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-left: 80px;
+  border-radius: 9px;
+  margin-top: 70px;
+  margin: 0 auto;
+  /* color:#fff; */
+}
 
-div.deviensHote h2.hote__title  {
-    text-decoration:none;
-    color:#fff;
-    text-decoration: none!important;
-    font-size: 50px;
-    color: #fff!important;
-    margin-top: 112px;
-    margin-bottom:0;
+div.deviensHote h2.hote__title {
+  text-decoration: none;
+  color: #fff;
+  text-decoration: none !important;
+  font-size: 50px;
+  color: #fff !important;
+  margin-top: 112px;
+  margin-bottom: 0;
 }
 
 h2.hote__title {
-    margin-bottom: 5px;
-    color:#fff;
+  margin-bottom: 5px;
+  color: #fff;
 }
-div.deviensHote > h2{
-    padding-top: 80px;
-    padding-left: 70px;
-    /* color:#fff; */
-    font-size:50px;
+div.deviensHote > h2 {
+  padding-top: 80px;
+  padding-left: 70px;
+  /* color:#fff; */
+  font-size: 50px;
 }
 
 p.hote__desc {
-    max-width:364px;
-    /* color:#fff; */
+  max-width: 364px;
+  /* color:#fff; */
 }
-a.hote__lien:link, a.hote__lien:focus , a.hote__lien:active, a.hote__lien:visited{
-    color:#fff;
-    text-decoration: none;
+a.hote__lien:link,
+a.hote__lien:focus,
+a.hote__lien:active,
+a.hote__lien:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
-a.hotelien__title:link, a.hotelien__title:active, a.hotelien__title:visited {
-    text-decoration: none;
-    color:#fff;
-    margin-bottom: 0;
-    
-    
+a.hotelien__title:link,
+a.hotelien__title:active,
+a.hotelien__title:visited {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 0;
 }
 p.hote__desc {
-    color:#fff;
-    text-decoration:none;
-    margin-top:0;
-    margin-left:75px;
-    font-size:20px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 0;
+  margin-left: 75px;
+  font-size: 20px;
 }
 
 button.hote__btn {
-    background:#fff;
-    color:#222222;
-    padding:15px 20px;
-    border:1px solid #000;
-    margin-left:75px;
-    font-size:16px;
-    border-radius:8px;
-    margin-top:15px;
-    cursor:pointer;
+  background: #fff;
+  color: #222222;
+  padding: 15px 20px;
+  border: 1px solid #000;
+  margin-left: 75px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
 }
 
 button.hote__btn:focus {
-    outline:none;
+  outline: none;
 }

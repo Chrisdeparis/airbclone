@@ -1,16 +1,16 @@
-import React from 'react'
-import Adulte from './Adulte'
-import Enfant from './Enfant'
+import React from "react";
+import Adulte from "./Adulte";
+import Enfant from "./Enfant";
 
 function Participant() {
-    return (
-        <div className="col-2">
-            {/*<div className="hebergement">
+  return (
+    <div className="col-2">
+      {/*<div className="hebergement">
                 <Adulte />  
                 <Enfant />
             </div> */}
-        </div>
-    )
+    </div>
+  );
 }
 
-export default Participant
+export default Participant;

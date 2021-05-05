@@ -1,9 +1,8 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Modal from '@material-ui/core/Modal';
-import CloseIcon from '@material-ui/icons/Close';
-import PaysList from './PaysList';
-
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Modal from "@material-ui/core/Modal";
+import CloseIcon from "@material-ui/icons/Close";
+import PaysList from "./PaysList";
 
 function rand() {
   return Math.round(Math.random() * 20) - 10;
@@ -22,14 +21,14 @@ function getModalStyle() {
 
 const useStyles = makeStyles((theme) => ({
   paper: {
-    position: 'absolute',
+    position: "absolute",
     width: 400,
     backgroundColor: theme.palette.background.paper,
-    border: 'none',
+    border: "none",
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
-    display: 'flex',
-  }
+    display: "flex",
+  },
 }));
 
 export default function SimpleModal() {
@@ -51,8 +50,6 @@ export default function SimpleModal() {
       <CloseIcon />
       <h3>Inscription</h3>
       <PaysList />
-
-      
     </div>
   );
 

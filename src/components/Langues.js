@@ -1,12 +1,14 @@
-import React from 'react'
-import LanguageIcon from '@material-ui/icons/Language';
+import React from "react";
+import LanguageIcon from "@material-ui/icons/Language";
 
 function Langues() {
-    return (
-        <div>
-            <button className="lang__btn"><LanguageIcon  /></button>
-        </div>
-    )
+  return (
+    <div>
+      <button className="lang__btn">
+        <LanguageIcon />
+      </button>
+    </div>
+  );
 }
 
-export default Langues
+export default Langues;

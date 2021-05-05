@@ -1,22 +1,22 @@
-import React, {useState, useEffect} from "react"
-import './App.css';
-import Home from './components/Home';
-import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from "./components/Header"
-import Login from './components/Login'
-import AlertCovid from './components/AlertCovid';
-import firebase from './firebase'
-import styled from 'styled-components'
-import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import Home from "./components/Home";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Header from "./components/Header";
+import Login from "./components/Login";
+import AlertCovid from "./components/AlertCovid";
+import firebase from "./firebase";
+import styled from "styled-components";
+import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 
 function App() {
-
   const [appartements, setAppartements] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const ref = firebase.firestore().collection('appartements');
+  const ref = firebase.firestore().collection("appartements");
 
-  {/*function getAppartements() {
+  {
+    /*function getAppartements() {
     setLoading(true);
     ref.onSnapshot((querySnapshot) => {
       const items = [];
@@ -47,12 +47,10 @@ function App() {
   const Titre = styled.p`
     font-size:8px;
     color:#efefef;
-  `;*/}
-
-  
+  `;*/
+  }
 
   return (
-    
     <Router>
       <AlertCovid />
       <Header />
@@ -71,7 +69,6 @@ function App() {
           </div>
         </div>
         ))}*/}
-        
 
         <Switch>
           <Route path="/">
@@ -80,7 +77,6 @@ function App() {
         </Switch>
       </div>
     </Router>
-    
   );
 }
 

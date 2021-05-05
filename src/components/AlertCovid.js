@@ -1,13 +1,17 @@
-import React from 'react'
-import './AlertCovid.css';
+import React from "react";
+import "./AlertCovid.css";
 
 const AlertCovid = () => {
-    return (
-        <div className="AlertCovid">
-            <p><a href="http:/">Accédez aux dernières informations sur les mesures prises par Airbnb face au COVID-19</a></p>
-        </div>
-    )
-}
+  return (
+    <div className="AlertCovid">
+      <p>
+        <a href="http:/">
+          Accédez aux dernières informations sur les mesures prises par Airbnb
+          face au COVID-19
+        </a>
+      </p>
+    </div>
+  );
+};
 
 export default AlertCovid;
-

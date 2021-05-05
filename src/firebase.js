@@ -1,4 +1,4 @@
-import firebase from 'firebase/app';
+import firebase from "firebase/app";
 import "firebase/firestore";
 
 var firebaseConfig = {
@@ -8,7 +8,7 @@ var firebaseConfig = {
   storageBucket: "airbclone.appspot.com",
   messagingSenderId: "364710948640",
   appId: "1:364710948640:web:b3f4d8cd917ee5e439f145",
-  measurementId: "G-1LYL603MK4"
+  measurementId: "G-1LYL603MK4",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
