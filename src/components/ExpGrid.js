@@ -15,10 +15,10 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function NestedGrid() {
+const NestedGrid = () => {
   const classes = useStyles();
 
-  function FormRow() {
+  const FormRow = () => {
     return (
       <React.Fragment>
         <Grid item xs={12} sm={4}>
@@ -54,3 +54,5 @@ export default function NestedGrid() {
     </div>
   );
 }
+
+export default NestedGrid

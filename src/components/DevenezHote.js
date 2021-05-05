@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 // import './DevenezHote.css';
 
-function DevenezHote() {
+const DevenezHote = () => {
     
 
     const divHote = styled.div`
