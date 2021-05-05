@@ -32,6 +32,7 @@ function DevenezHote() {
         background:'transparent',
         color:'#fff',
         cursor:'pointer',
+        width:'85px',
         '&:hover': {
             background:'#222222',
             color: '#FFF'
