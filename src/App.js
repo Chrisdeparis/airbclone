@@ -34,7 +34,7 @@ function App() {
 
   if(loading) {
     return <h1>Loading...</h1>
-  }*/}
+  }
 
   const Appartement = styled.div`
     width:730px;
@@ -47,12 +47,12 @@ function App() {
   const Titre = styled.p`
     font-size:8px;
     color:#efefef;
-  `;
+  `;*/}
 
   
 
   return (
-    <>
+    
     <Router>
       <AlertCovid />
       <Header />
@@ -80,7 +80,7 @@ function App() {
         </Switch>
       </div>
     </Router>
-    </>
+    
   );
 }
 

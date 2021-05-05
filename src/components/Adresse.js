@@ -57,7 +57,7 @@ const INITIAL_FORM_STATE = {
 
 
 
-export default function CustomizedInputs() {
+const CustomizedInputs = () => {
   const classes = useStyles();
 
   return (
@@ -74,3 +74,5 @@ export default function CustomizedInputs() {
     </form>
   );
 }
+
+export default CustomizedInputs;
