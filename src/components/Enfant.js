@@ -54,6 +54,9 @@ export default function CustomizedSelects() {
   const handleChange = (event) => {
     setAge(event.target.value);
   };
+  const runCallback = (cb) => {
+    return cb();
+  };
   return (
     <div className="participant">
       <FormControl className={classes.margin}>
@@ -67,12 +70,16 @@ export default function CustomizedSelects() {
           input={<BootstrapInput />}
         >
           <option aria-label="None" value="" />
-          <option value={1}>1</option>
-          <option value={2}>2</option>
-          <option value={3}>3</option>
-          <option value={4}>4</option>
-          <option value={5}>5</option>
-          <option value={6}>6</option>
+          
+          {
+            runCallback(() => {
+              const row = [];
+              for(let i=1; i<7; i++) {
+                row.push(<option value={i}>{i}</option>);
+              }
+              return row;
+            })
+          }
           
         </NativeSelect>
       </FormControl>
