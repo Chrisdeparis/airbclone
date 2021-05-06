@@ -1,7 +1,7 @@
 import React from "react";
 import Adresse from "./Adresse";
 
-function RechercheHeb() {
+const RechercheHeb = () => {
   return (
     <div className="recherche">
       <h1>Find hébergements in France on Airbnb</h1>
