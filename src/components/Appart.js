@@ -23,7 +23,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MediaCard() {
+const MediaCard = () => {
   const classes = useStyles();
 
   return (
@@ -62,4 +62,6 @@ export default function MediaCard() {
       </CardActionArea>
     </Card>
   );
-}
+};
+
+export default MediaCard;

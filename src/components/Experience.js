@@ -2,7 +2,7 @@ import React from "react";
 import "./Experience.css";
 import ExpGrid from "./ExpGrid";
 
-function Experience() {
+const Experience = () => {
   return (
     <div className="experience">
       <h2 className="exp_title">Découvrez les expériences</h2>
@@ -12,6 +12,6 @@ function Experience() {
       <ExpGrid />
     </div>
   );
-}
+};
 
 export default Experience;
