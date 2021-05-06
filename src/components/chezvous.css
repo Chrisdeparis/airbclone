@@ -10,6 +10,6 @@ div.chezvous__grid {
   display: flex;
 }
 
-/* div.makeStyles-root-40 {
-    margin-left: 0;
-} */
+div.makeStyles-root-40 {
+  margin: 0 auto;
+}

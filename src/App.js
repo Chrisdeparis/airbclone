@@ -20,17 +20,20 @@ const App = () => {
       <div className="App">
         {appartements.map((appart) => (
           <div className="appartement">
-          <img src="" alt=""/>
-          <div>
-            <div className="appart__title">
-              <h2>{appart.title}</h2><FavoriteBorderIcon />
+            <img src="" alt="" />
+            <div>
+              <div className="appart__title">
+                <h2>{appart.title}</h2>
+                <FavoriteBorderIcon />
+              </div>
+              <p>description</p>
+              <p>conditions</p>
+              <p>4,83 étoiles </p>
+              <p>
+                <strong>71€</strong> / nuit
+              </p>
             </div>
-            <p>description</p>
-            <p>conditions</p>
-            <p>4,83 étoiles </p>
-            <p><strong>71€</strong> / nuit</p>
           </div>
-        </div>
         ))}
 
         <Switch>
@@ -41,6 +44,6 @@ const App = () => {
       </div>
     </Router>
   );
-}
+};
 
 export default App;
