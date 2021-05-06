@@ -12,7 +12,7 @@ import DevenezHote from "./DevenezHote";
 import Langues from "./Langues";
 import Connection from "./Connection";
 
-function StickyTop() {
+const StickyTop = () => {
   const [stickyTop, setStickyTop] = useState(false);
 
   const showStickyTop = () => {
