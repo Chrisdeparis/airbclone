@@ -8,16 +8,45 @@ import AlertCovid from "./components/AlertCovid";
 import firebase from "./firebase";
 import styled from "styled-components";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import Axios from 'axios'
+
+
 
 const App = () => {
   const [appartements, setAppartements] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [appartTitle, setAppartTitle] = useState('');
+  const [appartDescription, setAppartDescription] = useState('');
+
+  useEffect(() => {
+    Axios.get('https://localhost:3001/api/get').then((response) => {
+      console.log(response);
+    });
+  }, []);
+  
+  const submitAppart = () => {
+    Axios.post("https://localhost:3001/api/insert", {appartTitle: appartTitle, appartDescription: appartDescription}).then(() => {
+      alert("successful insert")
+    });
+  };
 
   return (
     <Router>
       <AlertCovid />
       <Header />
       <div className="App">
+        <h1>Ajouter un Appartement</h1>
+        <div className="form">
+          <label htmlFor="">Appart Title : </label>
+          <input type="text" name="appartTitle" onChange={(e) => {
+            setAppartTitle(e.target.value)
+          }} /><br/>
+          <label htmlFor="">Appart Description : </label>
+          <input type="text" name="appartDescription" onChange={(e) => {
+            setAppartDescription(e.target.value)
+          }} />
+          <button>submit</button>
+        </div>
         {appartements.map((appart) => (
           <div className="appartement">
           <img src="" alt=""/>

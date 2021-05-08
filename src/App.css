@@ -2,7 +2,18 @@ body {
   overflow-x: hidden;
   margin: 0 auto;
 }
+h1{
+  text-align: center;
+}
 
+.App {
+
+  margin:0 auto;
+}
+.form{
+  margin:0 auto;
+  text-align: center;
+}
 .appartement {
   display: flex;
   width: 730px;
