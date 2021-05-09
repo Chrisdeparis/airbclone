@@ -13,6 +13,10 @@ h1{
 .form{
   margin:0 auto;
   text-align: center;
+  display:flex;
+}
+.form input {
+  margin:0 5px;
 }
 .appartement {
   display: flex;

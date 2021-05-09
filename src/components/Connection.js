@@ -6,7 +6,7 @@ import Modal from "react-modal";
 
 Modal.setAppElement("#root");
 
-function Connection() {
+const Connection = () => {
   const [show, setShow] = useState(false);
 
   console.log(setShow);

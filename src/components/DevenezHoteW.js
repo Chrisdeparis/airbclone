@@ -5,10 +5,9 @@ import Button from "@material-ui/core/Button";
 // import './DevenezHote.css';
 
 function DevenezHoteW() {
-  const divHote = styled.div`
+  const Hote = styled.div`
     height: fit-content;
     position: relative;
-    top: 28px;
     color: #fff;
     width: 115px;
   `;
@@ -39,11 +38,11 @@ function DevenezHoteW() {
   const classes = useStyles();
 
   return (
-    <divHote>
+    <Hote>
       <div className={classes.root}>
         Devenez hôte<a className={classes.a} href="http:/"></a>
       </div>
-    </divHote>
+    </Hote>
   );
 }
 

@@ -3,11 +3,10 @@ import "./App.css";
 import Home from "./components/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
-
+import Appartements from './components/Appartements'
 import AlertCovid from "./components/AlertCovid";
 import firebase from "./firebase";
 import styled from "styled-components";
-import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import Axios from 'axios'
 
 
@@ -15,17 +14,29 @@ import Axios from 'axios'
 const App = () => {
   const [appartements, setAppartements] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [appartList, setAppartList] = useState([])
   const [appartTitle, setAppartTitle] = useState('');
   const [appartDescription, setAppartDescription] = useState('');
+  const [appartCondition, setAppartCondition] = useState('');
+  const [appartEtoile, setAppartEtoile] = useState('');
+  const [appartPrix, setAppartPrix] = useState('');
+
 
   useEffect(() => {
-    Axios.get('https://localhost:3001/api/get').then((response) => {
-      console.log(response);
+    Axios.get('http://localhost:3001/api/get').then((response) => {
+     setAppartList(response.data)
     });
   }, []);
   
-  const submitAppart = () => {
-    Axios.post("https://localhost:3001/api/insert", {appartTitle: appartTitle, appartDescription: appartDescription}).then(() => {
+  const submitAppart = (e) => {
+    
+    Axios.post("http://localhost:3001/api/insert", {
+      appartTitle: appartTitle,
+      appartDescription: appartDescription,
+      appartCondition: appartCondition,
+      appartEtoile: appartEtoile,
+      appartPrix: appartPrix
+    }).then(() => {
       alert("successful insert")
     });
   };
@@ -45,22 +56,22 @@ const App = () => {
           <input type="text" name="appartDescription" onChange={(e) => {
             setAppartDescription(e.target.value)
           }} />
-          <button>submit</button>
+          <label htmlFor="">Appart Condition : </label>
+          <input type="text" name="appartCondition" onChange={(e) => {
+            setAppartCondition(e.target.value)
+          }} />
+          <label htmlFor="">Appart Etoile : </label>
+          <input type="text" name="appartEtoile" onChange={(e) => {
+            setAppartEtoile(e.target.value)
+          }} />
+          <label htmlFor="">Appart Prix : </label>
+          <input type="text" name="appartPrix" onChange={(e) => {
+            setAppartPrix(e.target.value)
+          }} />
+          <button onClick={submitAppart}>submit</button>
         </div>
-        {appartements.map((appart) => (
-          <div className="appartement">
-          <img src="" alt=""/>
-          <div>
-            <div className="appart__title">
-              <h2>{appart.title}</h2><FavoriteBorderIcon />
-            </div>
-            <p>description</p>
-            <p>conditions</p>
-            <p>4,83 étoiles </p>
-            <p><strong>71€</strong> / nuit</p>
-          </div>
-        </div>
-        ))}
+        <Appartements />
+        
 
         <Switch>
           <Route path="/">

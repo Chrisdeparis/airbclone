@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function CustomizedSelects() {
+const CustomizedSelects = () => {
   const classes = useStyles();
   const [age, setAge] = React.useState("");
   const handleChange = (event) => {
@@ -82,3 +82,5 @@ export default function CustomizedSelects() {
     </div>
   );
 }
+
+export default CustomizedSelects
