@@ -2,21 +2,20 @@ body {
   overflow-x: hidden;
   margin: 0 auto;
 }
-h1{
+h1 {
   text-align: center;
 }
 
 .App {
-
-  margin:0 auto;
+  margin: 0 auto;
 }
-.form{
-  margin:0 auto;
+.form {
+  margin: 0 auto;
   text-align: center;
-  display:flex;
+  display: flex;
 }
 .form input {
-  margin:0 5px;
+  margin: 0 5px;
 }
 .appartement {
   display: flex;

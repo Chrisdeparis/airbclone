@@ -12,6 +12,6 @@ const RechercheHeb = () => {
       <Adresse />
     </div>
   );
-}
+};
 
 export default RechercheHeb;

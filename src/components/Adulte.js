@@ -81,6 +81,6 @@ const CustomizedSelects = () => {
       </FormControl>
     </div>
   );
-}
+};
 
-export default CustomizedSelects
+export default CustomizedSelects;

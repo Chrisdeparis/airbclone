@@ -172,6 +172,6 @@ const StickyTop = () => {
       </HeaderRightW>
     </NavSticky>
   );
-}
+};
 
 export default StickyTop;

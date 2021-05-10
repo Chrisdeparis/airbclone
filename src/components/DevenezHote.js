@@ -8,7 +8,7 @@ const DevenezHote = () => {
   const Hote = styled.div`
     height: fit-content;
     position: relative;
-    
+
     color: #fff;
     width: 115px;
   `;

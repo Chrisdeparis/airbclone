@@ -62,6 +62,6 @@ const MediaCard = () => {
       </CardActionArea>
     </Card>
   );
-}
+};
 
-export default MediaCard
+export default MediaCard;

@@ -49,6 +49,6 @@ const Connection = () => {
       {show}
     </div>
   );
-}
+};
 
 export default Connection;
